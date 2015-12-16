@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <PurchaseOrderQueryRs statusCode="1" statusSeverity="Info" statusMessage="A query request did not find a matching object in QuickBooks" />
+  </QBXMLMsgsRs>
+</QBXML>

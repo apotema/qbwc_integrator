@@ -3,9 +3,8 @@ class CreateCompanies < ActiveRecord::Migration
     create_table :companies do |t|
       t.string :qbwc_token
       t.string :qwc_owner_id
-      t.string :login
-      t.string :password
-
+      t.string :password, default: "123456"
+      t.datetime :last_connection
       t.timestamps null: false
     end
   end

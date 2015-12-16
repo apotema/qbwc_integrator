@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemSubtotalAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemSubtotalRet>
+        <ListID>8000001B-1413332531</ListID>
+        <TimeCreated>2014-10-14T21:22:11-02:00</TimeCreated>
+        <TimeModified>2014-10-14T21:22:11-02:00</TimeModified>
+        <EditSequence>1413332531</EditSequence>
+        <Name>Some subtotal name</Name>
+        <IsActive>true</IsActive>
+        <ItemDesc>Somme subtotal description</ItemDesc>
+      </ItemSubtotalRet>
+    </ItemSubtotalAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <PurchaseOrderQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <PurchaseOrderRet>
+        <TxnID>16-1411048509</TxnID>
+        <TimeCreated>2014-09-18T10:55:09-02:00</TimeCreated>
+        <TimeModified>2014-09-18T10:55:09-02:00</TimeModified>
+        <EditSequence>1411048509</EditSequence>
+        <TxnNumber>7</TxnNumber>
+        <VendorRef>
+          <ListID>80000008-1410362704</ListID>
+          <FullName>Carl Sagan</FullName>
+        </VendorRef>
+        <ShipToEntityRef>
+          <ListID>80000002-1408125097</ListID>
+          <FullName>Casas Chama</FullName>
+        </ShipToEntityRef>
+        <TemplateRef>
+          <ListID>8000001A-1411048442</ListID>
+          <FullName>Custom Purchase Order</FullName>
+        </TemplateRef>
+        <TxnDate>2014-09-18</TxnDate>
+        <RefNumber>1</RefNumber>
+        <VendorAddress>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddressBlock>
+        <ShipAddress>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </ShipAddress>
+        <ShipAddressBlock>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </ShipAddressBlock>
+        <DueDate>2014-09-18</DueDate>
+        <ExpectedDate>2014-09-18</ExpectedDate>
+        <TotalAmount>22000.00</TotalAmount>
+        <IsManuallyClosed>false</IsManuallyClosed>
+        <IsFullyReceived>false</IsFullyReceived>
+        <IsToBePrinted>true</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </PurchaseOrderRet>
+      <PurchaseOrderRet>
+        <TxnID>19-1411048562</TxnID>
+        <TimeCreated>2014-09-18T10:56:02-02:00</TimeCreated>
+        <TimeModified>2014-09-18T10:56:02-02:00</TimeModified>
+        <EditSequence>1411048562</EditSequence>
+        <TxnNumber>8</TxnNumber>
+        <VendorRef>
+          <ListID>80000002-1408125097</ListID>
+          <FullName>Casas Chama</FullName>
+        </VendorRef>
+        <ShipToEntityRef>
+          <ListID>80000008-1410362704</ListID>
+          <FullName>Carl Sagan</FullName>
+        </ShipToEntityRef>
+        <TemplateRef>
+          <ListID>8000001A-1411048442</ListID>
+          <FullName>Custom Purchase Order</FullName>
+        </TemplateRef>
+        <TxnDate>2014-09-18</TxnDate>
+        <RefNumber>2</RefNumber>
+        <VendorAddress>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddressBlock>
+        <ShipAddress>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </ShipAddress>
+        <ShipAddressBlock>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </ShipAddressBlock>
+        <DueDate>2014-09-18</DueDate>
+        <ExpectedDate>2014-09-18</ExpectedDate>
+        <TotalAmount>750.00</TotalAmount>
+        <IsManuallyClosed>false</IsManuallyClosed>
+        <IsFullyReceived>false</IsFullyReceived>
+        <IsToBePrinted>true</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </PurchaseOrderRet>
+      <PurchaseOrderRet>
+        <TxnID>1D-1411048646</TxnID>
+        <TimeCreated>2014-09-18T10:57:26-02:00</TimeCreated>
+        <TimeModified>2014-09-18T10:57:26-02:00</TimeModified>
+        <EditSequence>1411048646</EditSequence>
+        <TxnNumber>9</TxnNumber>
+        <VendorRef>
+          <ListID>80000008-1410362704</ListID>
+          <FullName>Carl Sagan</FullName>
+        </VendorRef>
+        <ShipToEntityRef>
+          <ListID>80000006-1410186791</ListID>
+          <FullName>Steve Jobs:Steve Jobs:Steve Jobs</FullName>
+        </ShipToEntityRef>
+        <TemplateRef>
+          <ListID>8000001A-1411048442</ListID>
+          <FullName>Custom Purchase Order</FullName>
+        </TemplateRef>
+        <TxnDate>2014-09-18</TxnDate>
+        <RefNumber>40SKY</RefNumber>
+        <VendorAddress>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddressBlock>
+        <ShipAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </ShipAddress>
+        <ShipAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </ShipAddressBlock>
+        <DueDate>2014-09-18</DueDate>
+        <ExpectedDate>2014-09-18</ExpectedDate>
+        <TotalAmount>3000.00</TotalAmount>
+        <IsManuallyClosed>false</IsManuallyClosed>
+        <IsFullyReceived>false</IsFullyReceived>
+        <IsToBePrinted>true</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </PurchaseOrderRet>
+    </PurchaseOrderQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

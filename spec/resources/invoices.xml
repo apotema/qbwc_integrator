@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <InvoiceQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <InvoiceRet>
+        <TxnID>1-1408037988</TxnID>
+        <TimeCreated>2014-08-14T14:39:48-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:39:48-02:00</TimeModified>
+        <EditSequence>1408037988</EditSequence>
+        <TxnNumber>1</TxnNumber>
+        <CustomerRef>
+          <ListID>80000001-1408037988</ListID>
+          <FullName>Marcos Feliciano</FullName>
+        </CustomerRef>
+        <ARAccountRef>
+          <ListID>80000024-1408037988</ListID>
+          <FullName>Accounts Receivable</FullName>
+        </ARAccountRef>
+        <TemplateRef>
+          <ListID>80000001-1408037692</ListID>
+          <FullName>Intuit Product Invoice</FullName>
+        </TemplateRef>
+        <TxnDate>2014-08-14</TxnDate>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <IsPending>false</IsPending>
+        <IsFinanceCharge>false</IsFinanceCharge>
+        <DueDate>2014-08-14</DueDate>
+        <ShipDate>2014-08-14</ShipDate>
+        <Subtotal>1000.00</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <AppliedAmount>0.00</AppliedAmount>
+        <BalanceRemaining>1000.00</BalanceRemaining>
+        <Memo>Opening balance</Memo>
+        <IsPaid>false</IsPaid>
+        <IsToBePrinted>false</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </InvoiceRet>
+      <InvoiceRet>
+        <TxnID>4-1408977329</TxnID>
+        <TimeCreated>2014-08-25T11:35:29-02:00</TimeCreated>
+        <TimeModified>2014-09-12T15:02:11-02:00</TimeModified>
+        <EditSequence>1410544931</EditSequence>
+        <TxnNumber>2</TxnNumber>
+        <CustomerRef>
+          <ListID>80000003-1408977329</ListID>
+          <FullName>Steve Jobs</FullName>
+        </CustomerRef>
+        <ARAccountRef>
+          <ListID>80000024-1408037988</ListID>
+          <FullName>Accounts Receivable</FullName>
+        </ARAccountRef>
+        <TemplateRef>
+          <ListID>80000001-1408037692</ListID>
+          <FullName>Intuit Product Invoice</FullName>
+        </TemplateRef>
+        <TxnDate>2014-08-25</TxnDate>
+        <RefNumber>323143</RefNumber>
+        <BillAddress>
+          <Addr1>Pixar</Addr1>
+          <Addr2>Steve C Jobs</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Pixar</Addr1>
+          <Addr2>Steve C Jobs</Addr2>
+        </BillAddressBlock>
+        <IsPending>false</IsPending>
+        <IsFinanceCharge>false</IsFinanceCharge>
+        <DueDate>2014-08-25</DueDate>
+        <ShipDate>2014-08-25</ShipDate>
+        <Subtotal>2000.00</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <AppliedAmount>0.00</AppliedAmount>
+        <BalanceRemaining>2000.00</BalanceRemaining>
+        <Memo>Opening balance</Memo>
+        <IsPaid>false</IsPaid>
+        <IsToBePrinted>false</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </InvoiceRet>
+      <InvoiceRet>
+        <TxnID>7-1409240672</TxnID>
+        <TimeCreated>2014-08-28T12:44:32-02:00</TimeCreated>
+        <TimeModified>2014-08-28T12:44:32-02:00</TimeModified>
+        <EditSequence>1409240672</EditSequence>
+        <TxnNumber>3</TxnNumber>
+        <CustomerRef>
+          <ListID>80000004-1409240672</ListID>
+          <FullName>Steve Jobs:TRABALHO</FullName>
+        </CustomerRef>
+        <ARAccountRef>
+          <ListID>80000024-1408037988</ListID>
+          <FullName>Accounts Receivable</FullName>
+        </ARAccountRef>
+        <TemplateRef>
+          <ListID>80000001-1408037692</ListID>
+          <FullName>Intuit Product Invoice</FullName>
+        </TemplateRef>
+        <TxnDate>2014-08-28</TxnDate>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <IsPending>false</IsPending>
+        <IsFinanceCharge>false</IsFinanceCharge>
+        <DueDate>2014-08-28</DueDate>
+        <ShipDate>2014-08-28</ShipDate>
+        <Subtotal>8000.00</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <AppliedAmount>0.00</AppliedAmount>
+        <BalanceRemaining>8000.00</BalanceRemaining>
+        <Memo>Opening balance</Memo>
+        <IsPaid>false</IsPaid>
+        <IsToBePrinted>false</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </InvoiceRet>
+    </InvoiceQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

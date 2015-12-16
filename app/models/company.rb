@@ -1,9 +1,19 @@
+# == Schema Information
+#
+# Table name: companies
+#
+#  id           :integer          not null, primary key
+#  qbwc_token   :string
+#  qwc_owner_id :string
+#  password     :string           default("123456")
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
 class Company < ActiveRecord::Base
 
-  validates :login, uniqueness: true, presence: true
-  validates :password, presence: true
-
   before_create :generate_tokens
+  has_many :requests
 
   def next_token
     self.update_attribute(:qbwc_token, generate_qbwc_token)
@@ -11,7 +21,6 @@ class Company < ActiveRecord::Base
   end
 
   def generate_tokens
-    self.password = "123456"
     self.qwc_owner_id = SecureRandom.uuid
     self.qbwc_token = generate_qbwc_token
   end

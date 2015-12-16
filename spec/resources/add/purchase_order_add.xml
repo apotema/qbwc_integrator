@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <PurchaseOrderAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <PurchaseOrderRet>
+        <TxnID>2C-1413851583</TxnID>
+        <TimeCreated>2014-10-20T22:33:03-02:00</TimeCreated>
+        <TimeModified>2014-10-20T22:33:03-02:00</TimeModified>
+        <EditSequence>1413851583</EditSequence>
+        <TxnNumber>14</TxnNumber>
+        <VendorRef>
+          <ListID>80000002-1408125097</ListID>
+          <FullName>Casas Chama</FullName>
+        </VendorRef>
+        <TemplateRef>
+          <ListID>8000001A-1411048442</ListID>
+          <FullName>Custom Purchase Order</FullName>
+        </TemplateRef>
+        <TxnDate>2014-10-20</TxnDate>
+        <RefNumber>45SKY</RefNumber>
+        <VendorAddress>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddressBlock>
+        <ShipAddress>
+          <Addr1>Alexandre Test</Addr1>
+          <Addr2>Bla</Addr2>
+          <Addr3>Bla</Addr3>
+          <City>Rio de Janeiro</City>
+          <PostalCode>22210050</PostalCode>
+        </ShipAddress>
+        <ShipAddressBlock>
+          <Addr1>Alexandre Test</Addr1>
+          <Addr2>Bla</Addr2>
+          <Addr3>Bla</Addr3>
+          <Addr4>Rio de Janeiro, 22210050</Addr4>
+        </ShipAddressBlock>
+        <DueDate>2014-10-20</DueDate>
+        <ExpectedDate>2014-10-20</ExpectedDate>
+        <TotalAmount>0.00</TotalAmount>
+        <IsManuallyClosed>false</IsManuallyClosed>
+        <IsFullyReceived>false</IsFullyReceived>
+        <IsToBePrinted>true</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+        <PurchaseOrderLineRet>
+          <TxnLineID>2E-1413851583</TxnLineID>
+          <ItemRef>
+            <ListID>80000002-1409589924</ListID>
+            <FullName>Apontador</FullName>
+          </ItemRef>
+          <Desc>Apontadores de lapis</Desc>
+          <Rate>0.00</Rate>
+          <Amount>0.00</Amount>
+          <ReceivedQuantity>0</ReceivedQuantity>
+          <IsManuallyClosed>false</IsManuallyClosed>
+        </PurchaseOrderLineRet>
+      </PurchaseOrderRet>
+    </PurchaseOrderAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

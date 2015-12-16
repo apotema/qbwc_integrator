@@ -2,10 +2,9 @@ class CreateRequests < ActiveRecord::Migration
   def change
     create_table :requests do |t|
       t.text        :state
-      t.reference   :company
+      t.references  :company
       t.text        :quickbooks_request
-      t.text        :request_type
-      t.text        :qbwc_uuid
+      t.text        :qbwc_uuid, index: { unique: true}
       t.datetime    :quickbooks_start
       t.datetime    :quickbooks_end
       t.text        :quickbooks_response

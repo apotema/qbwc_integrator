@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemDiscountAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemDiscountRet>
+        <ListID>80000013-1412791049</ListID>
+        <TimeCreated>2014-10-08T14:57:29-02:00</TimeCreated>
+        <TimeModified>2014-10-08T14:57:29-02:00</TimeModified>
+        <EditSequence>1412791049</EditSequence>
+        <Name>blublu</Name>
+        <FullName>blublu</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <DiscountRate>10.00</DiscountRate>
+        <AccountRef>
+          <ListID>80000006-1408037704</ListID>
+          <FullName>Consulting Income</FullName>
+        </AccountRef>
+      </ItemDiscountRet>
+    </ItemDiscountAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

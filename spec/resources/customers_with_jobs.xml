@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <CustomerQueryRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK" iteratorRemainingCount="0" iteratorID="{6bf3acbe-b3c7-4681-bb00-e66c657fcb01}">
+      <CustomerRet>
+        <ListID>80000001-1408037988</ListID>
+        <TimeCreated>2014-08-14T14:39:48-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:39:49-02:00</TimeModified>
+        <EditSequence>1408037988</EditSequence>
+        <Name>Marcos Briene</Name>
+        <FullName>Marcos Briene</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <CompanyName>Igreja</CompanyName>
+        <Salutation>MR</Salutation>
+        <FirstName>Marcos</FirstName>
+        <MiddleName>R</MiddleName>
+        <LastName>Briene</LastName>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Briene</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Briene</Addr2>
+        </BillAddressBlock>
+        <Phone>87841823123</Phone>
+        <Email>bla@bla.com</Email>
+        <Contact>Marcos R Briene</Contact>
+        <Balance>1000.00</Balance>
+        <TotalBalance>1000.00</TotalBalance>
+        <JobStatus>None</JobStatus>
+      </CustomerRet>
+      <CustomerRet>
+        <ListID>80000003-1408977329</ListID>
+        <TimeCreated>2014-08-25T11:35:29-02:00</TimeCreated>
+        <TimeModified>2014-08-25T11:35:30-02:00</TimeModified>
+        <EditSequence>1408977329</EditSequence>
+        <Name>Steve Jobs</Name>
+        <FullName>Steve Jobs</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <CompanyName>Pixar</CompanyName>
+        <Salutation>MR</Salutation>
+        <FirstName>Steve</FirstName>
+        <MiddleName>C</MiddleName>
+        <LastName>Jobs</LastName>
+        <BillAddress>
+          <Addr1>Pixar</Addr1>
+          <Addr2>Steve C Jobs</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Pixar</Addr1>
+          <Addr2>Steve C Jobs</Addr2>
+        </BillAddressBlock>
+        <Phone>13123123123</Phone>
+        <Email>aaaa@bbb.com</Email>
+        <Contact>Steve C Jobs</Contact>
+        <Balance>2000.00</Balance>
+        <TotalBalance>10000.00</TotalBalance>
+        <JobStatus>None</JobStatus>
+      </CustomerRet>
+      <CustomerRet>
+        <ListID>80000004-1409240672</ListID>
+        <TimeCreated>2014-08-28T12:44:32-02:00</TimeCreated>
+        <TimeModified>2014-08-28T12:44:33-02:00</TimeModified>
+        <EditSequence>1409240672</EditSequence>
+        <Name>TRABALHO</Name>
+        <FullName>Steve Jobs:TRABALHO</FullName>
+        <IsActive>true</IsActive>
+        <ParentRef>
+          <ListID>80000003-1408977329</ListID>
+          <FullName>Steve Jobs</FullName>
+        </ParentRef>
+        <Sublevel>1</Sublevel>
+        <CompanyName>Igreja</CompanyName>
+        <Salutation>MR</Salutation>
+        <FirstName>Marcos</FirstName>
+        <MiddleName>R</MiddleName>
+        <LastName>Briene</LastName>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Briene</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Briene</Addr2>
+        </BillAddressBlock>
+        <Phone>87841823123</Phone>
+        <Email>bla@bla.com</Email>
+        <Contact>Marcos R Briene</Contact>
+        <Balance>8000.00</Balance>
+        <TotalBalance>8000.00</TotalBalance>
+        <JobStatus>None</JobStatus>
+      </CustomerRet>
+    </CustomerQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

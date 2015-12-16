@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <InvoiceAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <InvoiceRet>
+        <TxnID>2F-1413895912</TxnID>
+        <TimeCreated>2014-10-21T10:51:52-02:00</TimeCreated>
+        <TimeModified>2014-10-21T10:51:52-02:00</TimeModified>
+        <EditSequence>1413895912</EditSequence>
+        <TxnNumber>15</TxnNumber>
+        <CustomerRef>
+          <ListID>80000001-1408037988</ListID>
+          <FullName>Marcos Feliciano</FullName>
+        </CustomerRef>
+        <ARAccountRef>
+          <ListID>80000024-1408037988</ListID>
+          <FullName>Accounts Receivable</FullName>
+        </ARAccountRef>
+        <TemplateRef>
+          <ListID>80000001-1408037692</ListID>
+          <FullName>Intuit Product Invoice</FullName>
+        </TemplateRef>
+        <TxnDate>2014-10-20</TxnDate>
+        <RefNumber>1</RefNumber>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <IsPending>false</IsPending>
+        <IsFinanceCharge>false</IsFinanceCharge>
+        <DueDate>2014-10-20</DueDate>
+        <ShipDate>2014-10-20</ShipDate>
+        <Subtotal>111.11</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <AppliedAmount>0.00</AppliedAmount>
+        <BalanceRemaining>111.11</BalanceRemaining>
+        <IsPaid>false</IsPaid>
+        <IsToBePrinted>true</IsToBePrinted>
+        <IsToBeEmailed>false</IsToBeEmailed>
+        <InvoiceLineRet>
+          <TxnLineID>31-1413895912</TxnLineID>
+          <ItemRef>
+            <ListID>80000001-1409348960</ListID>
+            <FullName>Fibra de Carbono</FullName>
+          </ItemRef>
+          <Desc>Fibras de carbono</Desc>
+          <Rate>111.111</Rate>
+          <Amount>111.11</Amount>
+          <SalesTaxCodeRef>
+            <ListID>80000002-1408037693</ListID>
+            <FullName>Non</FullName>
+          </SalesTaxCodeRef>
+        </InvoiceLineRet>
+      </InvoiceRet>
+    </InvoiceAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

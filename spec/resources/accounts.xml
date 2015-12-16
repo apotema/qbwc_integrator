@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <AccountQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <AccountRet>
+        <ListID>80000024-1408037988</ListID>
+        <TimeCreated>2014-08-14T14:39:48-02:00</TimeCreated>
+        <TimeModified>2014-08-28T12:44:33-02:00</TimeModified>
+        <EditSequence>1408037988</EditSequence>
+        <Name>Accounts Receivable</Name>
+        <FullName>Accounts Receivable</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>AccountsReceivable</AccountType>
+        <SpecialAccountType>AccountsReceivable</SpecialAccountType>
+        <AccountNumber>11000</AccountNumber>
+        <Desc>Unpaid or unapplied customer invoices and credits</Desc>
+        <Balance>11000.00</Balance>
+        <TotalBalance>11000.00</TotalBalance>
+        <CashFlowClassification>Operating</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000029-1410362714</ListID>
+        <TimeCreated>2014-09-10T12:25:14-02:00</TimeCreated>
+        <TimeModified>2014-09-10T12:25:14-02:00</TimeModified>
+        <EditSequence>1410362714</EditSequence>
+        <Name>Inventory Asset</Name>
+        <FullName>Inventory Asset</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>OtherCurrentAsset</AccountType>
+        <SpecialAccountType>InventoryAssets</SpecialAccountType>
+        <AccountNumber>12100</AccountNumber>
+        <Desc>Costs of inventory purchased for resale</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Operating</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000027-1409592553</ListID>
+        <TimeCreated>2014-09-01T14:29:13-02:00</TimeCreated>
+        <TimeModified>2014-09-01T14:29:13-02:00</TimeModified>
+        <EditSequence>1409592553</EditSequence>
+        <Name>Undeposited Funds</Name>
+        <FullName>Undeposited Funds</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>OtherCurrentAsset</AccountType>
+        <SpecialAccountType>UndepositedFunds</SpecialAccountType>
+        <AccountNumber>12000</AccountNumber>
+        <Desc>Funds received, but not yet deposited to a bank account</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>NotApplicable</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000005-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Accumulated Depreciation</Name>
+        <FullName>Accumulated Depreciation</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>FixedAsset</AccountType>
+        <AccountNumber>17000</AccountNumber>
+        <Desc>Accumulated depreciation on equipment, buildings and improvements</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Investing</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000004-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Furniture and Equipment</Name>
+        <FullName>Furniture and Equipment</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>FixedAsset</AccountType>
+        <AccountNumber>15000</AccountNumber>
+        <Desc>Furniture and equipment with useful life exceeding one year</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Investing</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000026-1408976204</ListID>
+        <TimeCreated>2014-08-25T11:16:44-02:00</TimeCreated>
+        <TimeModified>2014-09-10T12:25:05-02:00</TimeModified>
+        <EditSequence>1408976204</EditSequence>
+        <Name>Accounts Payable</Name>
+        <FullName>Accounts Payable</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>AccountsPayable</AccountType>
+        <SpecialAccountType>AccountsPayable</SpecialAccountType>
+        <AccountNumber>20000</AccountNumber>
+        <Desc>Unpaid or unapplied vendor bills or credits</Desc>
+        <Balance>1000.00</Balance>
+        <TotalBalance>1000.00</TotalBalance>
+        <CashFlowClassification>Operating</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000023-1408037799</ListID>
+        <TimeCreated>2014-08-14T14:36:39-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:36:39-02:00</TimeModified>
+        <EditSequence>1408037799</EditSequence>
+        <Name>Payroll Liabilities</Name>
+        <FullName>Payroll Liabilities</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>OtherCurrentLiability</AccountType>
+        <SpecialAccountType>PayrollLiabilities</SpecialAccountType>
+        <AccountNumber>24000</AccountNumber>
+        <Desc>Unpaid payroll liabilities. Amounts withheld or accrued, but not yet paid</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Operating</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000003-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Opening Balance Equity</Name>
+        <FullName>Opening Balance Equity</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Equity</AccountType>
+        <SpecialAccountType>OpeningBalanceEquity</SpecialAccountType>
+        <AccountNumber>30000</AccountNumber>
+        <Desc>Opening balances during setup post to this account. The balance of this account should be zero after completing your setup</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Financing</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000020-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Owners Draw</Name>
+        <FullName>Owners Draw</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Equity</AccountType>
+        <AccountNumber>30800</AccountNumber>
+        <Desc>Monies taken out of the business by the owner</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Financing</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000021-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Owners Equity</Name>
+        <FullName>Owners Equity</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Equity</AccountType>
+        <SpecialAccountType>RetainedEarnings</SpecialAccountType>
+        <AccountNumber>32000</AccountNumber>
+        <Desc>Monies invested in the business by the owner, and profits kept in company accounts</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>Financing</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000006-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Consulting Income</Name>
+        <FullName>Consulting Income</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <AccountNumber>42700</AccountNumber>
+        <Desc>Sales of consulting services</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>293</TaxLineID>
+          <TaxLineName>Schedule C: Gross receipts or sales</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000007-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Sales - Hardware</Name>
+        <FullName>Sales - Hardware</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <AccountNumber>48000</AccountNumber>
+        <Desc>Sales of computer hardware, peripherals, and related technology</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>293</TaxLineID>
+          <TaxLineName>Schedule C: Gross receipts or sales</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000008-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Sales - Software</Name>
+        <FullName>Sales - Software</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <AccountNumber>48100</AccountNumber>
+        <Desc>Sales of computer software</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>293</TaxLineID>
+          <TaxLineName>Schedule C: Gross receipts or sales</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000009-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Sales - Support and Maintenance</Name>
+        <FullName>Sales - Support and Maintenance</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <AccountNumber>48200</AccountNumber>
+        <Desc>Sales of support services and maintenance contracts</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>293</TaxLineID>
+          <TaxLineName>Schedule C: Gross receipts or sales</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000A-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Shipping and Delivery Income</Name>
+        <FullName>Shipping and Delivery Income</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <AccountNumber>48900</AccountNumber>
+        <Desc>Shipping charges charged to customers</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>293</TaxLineID>
+          <TaxLineName>Schedule C: Gross receipts or sales</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000025-1408037988</ListID>
+        <TimeCreated>2014-08-14T14:39:48-02:00</TimeCreated>
+        <TimeModified>2014-08-28T12:44:33-02:00</TimeModified>
+        <EditSequence>1408037988</EditSequence>
+        <Name>Uncategorized Income</Name>
+        <FullName>Uncategorized Income</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Income</AccountType>
+        <SpecialAccountType>UncategorizedIncome</SpecialAccountType>
+        <AccountNumber>49900</AccountNumber>
+        <Desc>Income not categorized elsewhere</Desc>
+        <Balance>11000.00</Balance>
+        <TotalBalance>11000.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>303</TaxLineID>
+          <TaxLineName>Schedule C: Other business income</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000002A-1410362714</ListID>
+        <TimeCreated>2014-09-10T12:25:14-02:00</TimeCreated>
+        <TimeModified>2014-09-10T12:25:14-02:00</TimeModified>
+        <EditSequence>1410362714</EditSequence>
+        <Name>Cost of Goods Sold</Name>
+        <FullName>Cost of Goods Sold</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>CostOfGoodsSold</AccountType>
+        <SpecialAccountType>CostOfGoodsSold</SpecialAccountType>
+        <AccountNumber>50000</AccountNumber>
+        <Desc>Costs of items purchased and then sold to customers</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000B-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Freight and Shipping Costs</Name>
+        <FullName>Freight and Shipping Costs</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>CostOfGoodsSold</AccountType>
+        <AccountNumber>51100</AccountNumber>
+        <Desc>Freight-in and shipping costs for delivery to customers</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>496</TaxLineID>
+          <TaxLineName>Schedule C: Other costs, COGS</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000C-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Merchant Account Fees</Name>
+        <FullName>Merchant Account Fees</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>CostOfGoodsSold</AccountType>
+        <AccountNumber>51800</AccountNumber>
+        <Desc>Credit card merchant account discount fees, transaction fees, and related costs</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>496</TaxLineID>
+          <TaxLineName>Schedule C: Other costs, COGS</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000D-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Purchases - Hardware for Resale</Name>
+        <FullName>Purchases - Hardware for Resale</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>CostOfGoodsSold</AccountType>
+        <AccountNumber>52700</AccountNumber>
+        <Desc>Purchases of hardware items for resale that are not tracked or counted in inventory</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>493</TaxLineID>
+          <TaxLineName>Schedule C: Purchases, cost of goods</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000E-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Purchases - Software for Resale</Name>
+        <FullName>Purchases - Software for Resale</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>CostOfGoodsSold</AccountType>
+        <AccountNumber>53000</AccountNumber>
+        <Desc>Purchases of software items for resale that are not tracked or counted in inventory</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>493</TaxLineID>
+          <TaxLineName>Schedule C: Purchases, cost of goods</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000000F-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Advertising and Promotion</Name>
+        <FullName>Advertising and Promotion</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>60000</AccountNumber>
+        <Desc>Advertising, marketing, graphic design, and other promotional expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>304</TaxLineID>
+          <TaxLineName>Schedule C: Advertising</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000010-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Automobile Expense</Name>
+        <FullName>Automobile Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>60200</AccountNumber>
+        <Desc>Fuel, oil, repairs, and other automobile maintenance for business autos</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>306</TaxLineID>
+          <TaxLineName>Schedule C: Car and truck expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000011-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Bank Service Charges</Name>
+        <FullName>Bank Service Charges</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>60400</AccountNumber>
+        <Desc>Bank account service fees, bad check charges and other bank fees</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>302</TaxLineID>
+          <TaxLineName>Schedule C: Other business expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000012-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Computer and Internet Expenses</Name>
+        <FullName>Computer and Internet Expenses</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>61700</AccountNumber>
+        <Desc>Computer supplies, off-the-shelf software, online fees, and other computer or internet related expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>302</TaxLineID>
+          <TaxLineName>Schedule C: Other business expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000013-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Continuing Education</Name>
+        <FullName>Continuing Education</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>62000</AccountNumber>
+        <Desc>Seminars, educational expenses and employee development, not including travel</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>302</TaxLineID>
+          <TaxLineName>Schedule C: Other business expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000014-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Depreciation Expense</Name>
+        <FullName>Depreciation Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>62400</AccountNumber>
+        <Desc>Depreciation on equipment, buildings and improvements</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000015-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Dues and Subscriptions</Name>
+        <FullName>Dues and Subscriptions</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>62500</AccountNumber>
+        <Desc>Subscriptions and membership dues for civic, service, professional, trade organizations</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>302</TaxLineID>
+          <TaxLineName>Schedule C: Other business expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000016-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Insurance Expense</Name>
+        <FullName>Insurance Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>63300</AccountNumber>
+        <Desc>Insurance expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>310</TaxLineID>
+          <TaxLineName>Schedule C: Insurance, other than health</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000017-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Interest Expense</Name>
+        <FullName>Interest Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>63400</AccountNumber>
+        <Desc>Interest payments on business loans, credit card balances, or other business debt</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>312</TaxLineID>
+          <TaxLineName>Schedule C: Interest expense, other</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000018-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Meals and Entertainment</Name>
+        <FullName>Meals and Entertainment</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>64300</AccountNumber>
+        <Desc>Business meals and entertainment expenses, including travel-related meals (may have limited deductibility)</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>294</TaxLineID>
+          <TaxLineName>Schedule C: Meals and entertainment</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000019-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Office Supplies</Name>
+        <FullName>Office Supplies</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>64900</AccountNumber>
+        <Desc>Office supplies expense</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>313</TaxLineID>
+          <TaxLineName>Schedule C: Office expenses</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000022-1408037799</ListID>
+        <TimeCreated>2014-08-14T14:36:39-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:36:39-02:00</TimeModified>
+        <EditSequence>1408037799</EditSequence>
+        <Name>Payroll Expenses</Name>
+        <FullName>Payroll Expenses</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <SpecialAccountType>PayrollExpenses</SpecialAccountType>
+        <AccountNumber>66000</AccountNumber>
+        <Desc>Payroll expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>297</TaxLineID>
+          <TaxLineName>Schedule C: Wages paid</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001A-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Professional Fees</Name>
+        <FullName>Professional Fees</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>66700</AccountNumber>
+        <Desc>Payments to accounting professionals and attorneys for accounting or legal services</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>298</TaxLineID>
+          <TaxLineName>Schedule C: Legal and professional fees</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001B-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Rent Expense</Name>
+        <FullName>Rent Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>67100</AccountNumber>
+        <Desc>Rent paid for company offices or other structures used in the business</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>300</TaxLineID>
+          <TaxLineName>Schedule C: Rent/lease other bus. prop.</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001C-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Telephone Expense</Name>
+        <FullName>Telephone Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>68100</AccountNumber>
+        <Desc>Telephone and long distance charges, faxing, and other fees Not equipment purchases</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>318</TaxLineID>
+          <TaxLineName>Schedule C: Utilities</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001D-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Travel Expense</Name>
+        <FullName>Travel Expense</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>68400</AccountNumber>
+        <Desc>Business-related travel expenses including airline tickets, taxi fares, hotel and other travel expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>317</TaxLineID>
+          <TaxLineName>Schedule C: Travel</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>80000028-1410362704</ListID>
+        <TimeCreated>2014-09-10T12:25:04-02:00</TimeCreated>
+        <TimeModified>2014-09-10T12:25:05-02:00</TimeModified>
+        <EditSequence>1410362704</EditSequence>
+        <Name>Uncategorized Expenses</Name>
+        <FullName>Uncategorized Expenses</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <SpecialAccountType>UncategorizedExpenses</SpecialAccountType>
+        <AccountNumber>69800</AccountNumber>
+        <Desc>Expenses not categorized elsewhere</Desc>
+        <Balance>1000.00</Balance>
+        <TotalBalance>1000.00</TotalBalance>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001E-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Utilities</Name>
+        <FullName>Utilities</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>Expense</AccountType>
+        <AccountNumber>68600</AccountNumber>
+        <Desc>Water, electricity, garbage, and other basic utilities expenses</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <TaxLineInfoRet>
+          <TaxLineID>318</TaxLineID>
+          <TaxLineName>Schedule C: Utilities</TaxLineName>
+        </TaxLineInfoRet>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000001F-1408037704</ListID>
+        <TimeCreated>2014-08-14T14:35:04-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:35:04-02:00</TimeModified>
+        <EditSequence>1408037704</EditSequence>
+        <Name>Ask My Accountant</Name>
+        <FullName>Ask My Accountant</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>OtherExpense</AccountType>
+        <AccountNumber>80000</AccountNumber>
+        <Desc>Transactions to be discussed with accountant, consultant, or tax preparer</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>None</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000002B-1410806812</ListID>
+        <TimeCreated>2014-09-15T15:46:52-02:00</TimeCreated>
+        <TimeModified>2014-09-15T15:50:58-02:00</TimeModified>
+        <EditSequence>1410806812</EditSequence>
+        <Name>Estimates</Name>
+        <FullName>Estimates</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>NonPosting</AccountType>
+        <SpecialAccountType>Estimates</SpecialAccountType>
+        <AccountNumber>90000</AccountNumber>
+        <Desc>Estimates for jobs or projects. Customer proposals for work to be done, or items to be sold upon customer acceptance of the estimate</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>NotApplicable</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000002D-1411048443</ListID>
+        <TimeCreated>2014-09-18T10:54:03-02:00</TimeCreated>
+        <TimeModified>2014-09-18T10:57:26-02:00</TimeModified>
+        <EditSequence>1411048443</EditSequence>
+        <Name>Purchase Orders</Name>
+        <FullName>Purchase Orders</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>NonPosting</AccountType>
+        <SpecialAccountType>PurchaseOrders</SpecialAccountType>
+        <AccountNumber>90100</AccountNumber>
+        <Desc>Purchase orders specifying items ordered from vendors</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>NotApplicable</CashFlowClassification>
+      </AccountRet>
+      <AccountRet>
+        <ListID>8000002C-1411048122</ListID>
+        <TimeCreated>2014-09-18T10:48:42-02:00</TimeCreated>
+        <TimeModified>2014-09-18T10:48:42-02:00</TimeModified>
+        <EditSequence>1411048122</EditSequence>
+        <Name>Sales Orders</Name>
+        <FullName>Sales Orders</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <AccountType>NonPosting</AccountType>
+        <SpecialAccountType>SalesOrders</SpecialAccountType>
+        <AccountNumber>90200</AccountNumber>
+        <Desc>Orders from customers to be filled, work to be performed, or items to be shipped</Desc>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <CashFlowClassification>NotApplicable</CashFlowClassification>
+      </AccountRet>
+    </AccountQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <CustomerAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <CustomerRet>
+        <ListID>8000000B-1412392005</ListID>
+        <TimeCreated>2014-10-04T00:06:45-02:00</TimeCreated>
+        <TimeModified>2014-10-04T00:06:45-02:00</TimeModified>
+        <EditSequence>1412392005</EditSequence>
+        <Name>Job do marcos</Name>
+        <FullName>Marcos:Job do marcos</FullName>
+        <IsActive>true</IsActive>
+        <ParentRef>
+          <ListID>80000001-1408037988</ListID>
+          <FullName>Marcos Feliciano</FullName>
+        </ParentRef>
+        <Sublevel>1</Sublevel>
+        <Balance>0.00</Balance>
+        <TotalBalance>0.00</TotalBalance>
+        <JobStatus>None</JobStatus>
+      </CustomerRet>
+    </CustomerAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemNonInventoryAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemNonInventoryRet>
+        <ListID>80000015-1412866569</ListID>
+        <TimeCreated>2014-10-09T11:56:09-02:00</TimeCreated>
+        <TimeModified>2014-10-09T11:56:09-02:00</TimeModified>
+        <EditSequence>1412866569</EditSequence>
+        <Name>Bloblo</Name>
+        <FullName>Bloblo</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesOrPurchase>
+        <Price>40.00</Price>
+        <AccountRef>
+          <ListID>80000006-1408037704</ListID>
+          <FullName>Consulting Income</FullName>
+        </AccountRef>
+        </SalesOrPurchase>
+      </ItemNonInventoryRet>
+    </ItemNonInventoryAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

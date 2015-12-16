@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <VendorAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <VendorRet>
+        <ListID>8000000D-1413595833</ListID>
+        <TimeCreated>2014-10-17T22:30:33-02:00</TimeCreated>
+        <TimeModified>2014-10-17T22:30:33-02:00</TimeModified>
+        <EditSequence>1413595833</EditSequence>
+        <Name>Some vendor name</Name>
+        <IsActive>false</IsActive>
+        <CompanyName>Some company name</CompanyName>
+        <Salutation>Sr.</Salutation>
+        <Email>bla@bla.com</Email>
+        <IsVendorEligibleFor1099>false</IsVendorEligibleFor1099>
+        <Balance>0.00</Balance>
+      </VendorRet>
+    </VendorAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

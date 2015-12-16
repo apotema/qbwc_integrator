@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <VendorQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <VendorRet>
+        <ListID>80000001-1403289728</ListID>
+        <TimeCreated>2014-06-20T11:42:08-08:00</TimeCreated>
+        <TimeModified>2014-06-20T11:42:08-08:00</TimeModified>
+        <EditSequence>1403289728</EditSequence>
+        <Name>Valente Construction</Name>
+        <IsActive>true</IsActive>
+        <CompanyName>Valente Construction</CompanyName>
+        <FirstName>Joe</FirstName>
+        <LastName>Valente</LastName>
+        <VendorAddress>
+          <Addr1>Valente Construction</Addr1>
+          <Addr2>1111 Carpinteria Ave.</Addr2>
+          <Addr3>2222 Carpinteria Ave.</Addr3>
+          <Addr4>3333 Carpinteria Ave.</Addr4>
+          <City>Santa Barbara</City>
+          <State>CA</State>
+          <PostalCode>93108</PostalCode>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Valente Construction</Addr1>
+          <Addr2>1111 Carpinteria Ave.</Addr2>
+          <Addr3>Santa Barbara, CA, 93108</Addr3>
+        </VendorAddressBlock>
+        <Phone>8055665777</Phone>
+        <AltPhone>8055665666</AltPhone>
+        <Fax>8055655555</Fax>
+        <Email>joe@foo.com</Email>
+        <Contact>Missy Valero</Contact>
+        <IsVendorEligibleFor1099>false</IsVendorEligibleFor1099>
+        <Balance>0.00</Balance>
+      </VendorRet>
+    </VendorQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

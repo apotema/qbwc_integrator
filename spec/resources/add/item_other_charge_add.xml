@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemOtherChargeAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemOtherChargeRet>
+        <ListID>80000016-1412875133</ListID>
+        <TimeCreated>2014-10-09T14:18:53-02:00</TimeCreated>
+        <TimeModified>2014-10-09T14:18:53-02:00</TimeModified>
+        <EditSequence>1412875133</EditSequence>
+        <Name>Qbwc other charge item</Name>
+        <FullName>Qbwc other charge item</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesOrPurchase>
+          <Price>19.00</Price>
+          <AccountRef>
+            <ListID>80000006-1408037704</ListID>
+            <FullName>Consulting Income</FullName>
+          </AccountRef>
+        </SalesOrPurchase>
+      </ItemOtherChargeRet>
+    </ItemOtherChargeAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

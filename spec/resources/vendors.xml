@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <VendorQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <VendorRet>
+        <ListID>80000008-1410362704</ListID>
+        <TimeCreated>2014-09-10T12:25:04-02:00</TimeCreated>
+        <TimeModified>2014-09-10T12:25:05-02:00</TimeModified>
+        <EditSequence>1410362704</EditSequence>
+        <Name>Carl Sagan</Name>
+        <IsActive>true</IsActive>
+        <CompanyName>Cosmos</CompanyName>
+        <Salutation>Dr</Salutation>
+        <FirstName>Carl</FirstName>
+        <MiddleName>M</MiddleName>
+        <LastName>Sagan</LastName>
+        <VendorAddress>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Cosmos</Addr1>
+          <Addr2>Carl M Sagan</Addr2>
+        </VendorAddressBlock>
+        <Phone>9129312931</Phone>
+        <Email>carl@gmail.com</Email>
+        <Contact>Carl M Sagan</Contact>
+        <NameOnCheck>Cosmos</NameOnCheck>
+        <IsVendorEligibleFor1099>false</IsVendorEligibleFor1099>
+        <Balance>1000.00</Balance>
+      </VendorRet>
+      <VendorRet>
+        <ListID>80000002-1408125097</ListID>
+        <TimeCreated>2014-08-15T14:51:37-02:00</TimeCreated>
+        <TimeModified>2014-08-15T14:51:37-02:00</TimeModified>
+        <EditSequence>1408125097</EditSequence>
+        <Name>Casas Chama</Name>
+        <IsActive>true</IsActive>
+        <CompanyName>Casas Chama</CompanyName>
+        <Salutation>Sr</Salutation>
+        <FirstName>Fabricia</FirstName>
+        <MiddleName>M</MiddleName>
+        <LastName>Amorim</LastName>
+        <VendorAddress>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddress>
+        <VendorAddressBlock>
+          <Addr1>Casas Chama</Addr1>
+          <Addr2>Fabricia M Amorim</Addr2>
+        </VendorAddressBlock>
+        <Phone>+5521982734234</Phone>
+        <Email>caramba@gaga.com</Email>
+        <Contact>Fabricia M Amorim</Contact>
+        <NameOnCheck>Casas Chama</NameOnCheck>
+        <IsVendorEligibleFor1099>false</IsVendorEligibleFor1099>
+        <Balance>0.00</Balance>
+      </VendorRet>
+    </VendorQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

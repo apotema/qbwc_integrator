@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <BillQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <BillRet>
+        <TxnID>1-1425005776</TxnID>
+        <TimeCreated>2015-02-27T13:56:16+11:00</TimeCreated>
+        <TimeModified>2015-02-27T13:56:16+11:00</TimeModified>
+        <EditSequence>1425005776</EditSequence>
+        <TxnNumber>1</TxnNumber>
+        <VendorRef>
+          <ListID>80000004-1424844235</ListID>
+          <FullName>Carlos</FullName>
+        </VendorRef>
+        <APAccountRef>
+          <ListID>80000024-1425005713</ListID>
+          <FullName>Accounts Payable</FullName>
+        </APAccountRef>
+        <TxnDate>2015-02-27</TxnDate>
+        <DueDate>2015-03-09</DueDate>
+        <AmountDue>10.00</AmountDue>
+        <IsPaid>false</IsPaid>
+        <ExpenseLineRet>
+          <TxnLineID>3-1425005776</TxnLineID>
+          <AccountRef>
+            <ListID>8000000E-1421090120</ListID>
+            <FullName>Purchases - Software for Resale</FullName>
+          </AccountRef>
+          <Amount>10.00</Amount>
+          <CustomerRef>
+            <ListID>80000003-1422580613</ListID>
+            <FullName>Mark:Markito</FullName>
+          </CustomerRef>
+          <BillableStatus>Billable</BillableStatus>
+        </ExpenseLineRet>
+        <OpenAmount>10.00</OpenAmount>
+      </BillRet>
+      <BillRet>
+        <TxnID>4-1425258161</TxnID>
+        <TimeCreated>2015-03-02T12:02:41+11:00</TimeCreated>
+        <TimeModified>2015-03-02T12:02:41+11:00</TimeModified>
+        <EditSequence>1425258161</EditSequence>
+        <TxnNumber>2</TxnNumber>
+        <VendorRef>
+          <ListID>80000002-1421686464</ListID>
+          <FullName>Julian</FullName>
+        </VendorRef>
+        <APAccountRef>
+          <ListID>80000024-1425005713</ListID>
+          <FullName>Accounts Payable</FullName>
+        </APAccountRef>
+        <TxnDate>2015-03-02</TxnDate>
+        <DueDate>2015-03-12</DueDate>
+        <AmountDue>40.00</AmountDue>
+        <IsPaid>false</IsPaid>
+        <ExpenseLineRet>
+          <TxnLineID>6-1425258161</TxnLineID>
+          <AccountRef>
+            <ListID>8000001C-1421090120</ListID>
+            <FullName>Telephone Expense</FullName>
+          </AccountRef>
+          <Amount>10.00</Amount>
+        </ExpenseLineRet>
+        <ExpenseLineRet>
+          <TxnLineID>7-1425258161</TxnLineID>
+          <AccountRef>
+            <ListID>8000001F-1421090120</ListID>
+            <FullName>Ask My Accountant</FullName>
+          </AccountRef>
+          <Amount>-20.00</Amount>
+        </ExpenseLineRet>
+        <ExpenseLineRet>
+          <TxnLineID>8-1425258161</TxnLineID>
+          <AccountRef>
+            <ListID>8000001C-1421090120</ListID>
+            <FullName>Telephone Expense</FullName>
+          </AccountRef>
+          <Amount>30.00</Amount>
+        </ExpenseLineRet>
+        <ItemLineRet>
+          <TxnLineID>9-1425258161</TxnLineID>
+          <ItemRef>
+            <ListID>80000002-1422581256</ListID>
+            <FullName>Construction:Build a wall</FullName>
+          </ItemRef>
+          <Cost>20.00</Cost>
+          <Amount>20.00</Amount>
+        </ItemLineRet>
+        <OpenAmount>40.00</OpenAmount>
+      </BillRet>
+    </BillQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

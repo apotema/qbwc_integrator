@@ -14,22 +14,9 @@
 #  updated_at          :datetime         not null
 #
 
-class Request < ActiveRecord::Base
+class RequestSerializer < ActiveModel::Serializer
 
-  include RequestStateMachine
-
-  before_validation :set_uuid, on: :create
-
-  validates :qbwc_uuid, uniqueness: true
-
-  belongs_to :company
-
-  scope :pending, -> { with_state(:pending) }
-
-  def set_uuid
-    begin
-      self.qbwc_uuid = SecureRandom.uuid
-    end while Request.exists?(qbwc_uuid: self.qbwc_uuid)
-  end
+  attributes :id, :quickbooks_request, :state, :qbwc_uuid, :quickbooks_start
+  attributes :quickbooks_end, :quickbooks_response 
 
 end

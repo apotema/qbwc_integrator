@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <CustomerQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK" iteratorRemainingCount="0" iteratorID="{70b27af2-b36d-40c2-961d-b1d5c348ddce}">
+      <CustomerRet>
+        <ListID>80000001-1408037988</ListID>
+        <TimeCreated>2014-08-14T14:39:48-02:00</TimeCreated>
+        <TimeModified>2014-08-14T14:39:49-02:00</TimeModified>
+        <EditSequence>1408037988</EditSequence>
+        <Name>Marcos Feliciano</Name>
+        <FullName>Marcos Feliciano</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <CompanyName>Igreja</CompanyName>
+        <Salutation>MR</Salutation>
+        <FirstName>Marcos</FirstName>
+        <MiddleName>R</MiddleName>
+        <LastName>Feliciano</LastName>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <Phone>87841823123</Phone>
+        <Email>bla@bla.com</Email>
+        <Contact>Marcos R Feliciano</Contact>
+        <Balance>1000.00</Balance>
+        <TotalBalance>1000.00</TotalBalance>
+        <JobStatus>None</JobStatus>
+      </CustomerRet>
+    </CustomerQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

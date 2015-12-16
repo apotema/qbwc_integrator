@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemServiceRet>
+        <ListID>80000001-1409348960</ListID>
+        <TimeCreated>2014-08-29T18:49:20-02:00</TimeCreated>
+        <TimeModified>2014-08-29T18:49:20-02:00</TimeModified>
+        <EditSequence>1409348960</EditSequence>
+        <Name>Fibra de Carbono</Name>
+        <FullName>Fibra de Carbono</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesOrPurchase>
+          <Desc>Fibras de carbono</Desc>
+          <Price>111.111</Price>
+          <AccountRef>
+            <ListID>80000007-1408037704</ListID>
+            <FullName>Sales - Hardware</FullName>
+          </AccountRef>
+        </SalesOrPurchase>
+      </ItemServiceRet>
+    </ItemQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemGroupAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemGroupRet>
+        <ListID>8000001C-1413570984</ListID>
+        <TimeCreated>2014-10-17T15:36:24-02:00</TimeCreated>
+        <TimeModified>2014-10-17T15:36:24-02:00</TimeModified>
+        <EditSequence>1413570984</EditSequence>
+        <Name>group item name</Name>
+        <IsActive>true</IsActive>
+        <ItemDesc>Some group item description</ItemDesc>
+        <IsPrintItemsInGroup>false</IsPrintItemsInGroup>
+      </ItemGroupRet>
+    </ItemGroupAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

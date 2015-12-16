@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <EstimateQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <EstimateRet>
+        <TxnID>D-1410806949</TxnID>
+        <TimeCreated>2014-09-15T15:49:09-02:00</TimeCreated>
+        <TimeModified>2014-09-15T15:49:09-02:00</TimeModified>
+        <EditSequence>1410806949</EditSequence>
+        <TxnNumber>5</TxnNumber>
+        <CustomerRef>
+          <ListID>80000001-1408037988</ListID>
+          <FullName>Marcos Feliciano</FullName>
+        </CustomerRef>
+        <TemplateRef>
+          <ListID>80000016-1408037693</ListID>
+          <FullName>Retail Estimate</FullName>
+        </TemplateRef>
+        <TxnDate>2014-09-15</TxnDate>
+        <RefNumber>1</RefNumber>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <IsActive>true</IsActive>
+        <DueDate>2014-09-15</DueDate>
+        <Subtotal>141.11</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <TotalAmount>141.11</TotalAmount>
+        <Memo>Good work</Memo>
+        <CustomerMsgRef>
+          <ListID>80000004-1408037704</ListID>
+          <FullName>It's been a pleasure working with you!</FullName>
+        </CustomerMsgRef>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </EstimateRet>
+      <EstimateRet>
+        <TxnID>12-1410807058</TxnID>
+        <TimeCreated>2014-09-15T15:50:58-02:00</TimeCreated>
+        <TimeModified>2014-09-15T15:50:58-02:00</TimeModified>
+        <EditSequence>1410807058</EditSequence>
+        <TxnNumber>6</TxnNumber>
+        <CustomerRef>
+          <ListID>80000005-1410186748</ListID>
+          <FullName>Steve Jobs:Steve Jobs</FullName>
+        </CustomerRef>
+        <TemplateRef>
+          <ListID>80000016-1408037693</ListID>
+          <FullName>Retail Estimate</FullName>
+        </TemplateRef>
+        <TxnDate>2014-09-15</TxnDate>
+        <RefNumber>2</RefNumber>
+        <BillAddress>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddress>
+        <BillAddressBlock>
+          <Addr1>Igreja</Addr1>
+          <Addr2>Marcos R Feliciano</Addr2>
+        </BillAddressBlock>
+        <IsActive>true</IsActive>
+        <DueDate>2014-09-15</DueDate>
+        <Subtotal>10.00</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <TotalAmount>10.00</TotalAmount>
+        <Memo>Bla</Memo>
+        <CustomerMsgRef>
+          <ListID>80000005-1408037704</ListID>
+          <FullName>We appreciate your prompt payment.</FullName>
+        </CustomerMsgRef>
+        <IsToBeEmailed>false</IsToBeEmailed>
+      </EstimateRet>
+    </EstimateQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

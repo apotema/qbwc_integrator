@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <JobReportQueryRs statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ReportRet>
+        <ReportTitle>Job Estimates vs. Actuals Detail for Wilson, Brandon:Custom Home</ReportTitle>
+        <ReportSubtitle>All Transactions</ReportSubtitle>
+        <ReportBasis>Accrual</ReportBasis>
+        <NumRows>35</NumRows>
+        <NumColumns>7</NumColumns>
+        <NumColTitleRows>1</NumColTitleRows>
+        <ColDesc colID="1" dataType="STRTYPE">
+          <ColTitle titleRow="1" />
+          <ColType>Label</ColType>
+        </ColDesc>
+        <ColDesc colID="2" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="Est. Cost" />
+          <ColType>Amount</ColType>
+        </ColDesc>
+        <ColDesc colID="3" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="Act. Cost" />
+          <ColType>Amount</ColType>
+        </ColDesc>
+        <ColDesc colID="4" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="($) Diff." />
+          <ColType>AmountDifference</ColType>
+        </ColDesc>
+        <ColDesc colID="5" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="Est. Revenue" />
+          <ColType>Amount</ColType>
+        </ColDesc>
+        <ColDesc colID="6" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="Act. Revenue" />
+          <ColType>Amount</ColType>
+        </ColDesc>
+        <ColDesc colID="7" dataType="AMTTYPE">
+          <ColTitle titleRow="1" value="($) Diff." />
+          <ColType>AmountDifference</ColType>
+        </ColDesc>
+        <ReportData>
+          <TextRow rowNumber="1" value="Service" />
+          <TextRow rowNumber="2" value="01 Plans &amp; Permits  . (Plans &amp; Permits)" />
+          <DataRow rowNumber="3">
+            <RowData rowType="item" value="01 Plans &amp; Permits  .:01.1 Plans" />
+            <ColData colID="1" value="01.1 Plans (Plans)" />
+            <ColData colID="2" value="1000.00" />
+            <ColData colID="3" value="684.04" />
+            <ColData colID="4" value="-315.96" />
+            <ColData colID="5" value="1500.00" />
+            <ColData colID="6" value="1500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="4">
+            <RowData rowType="item" value="01 Plans &amp; Permits  .:01.2 Building Permits" />
+            <ColData colID="1" value="01.2 Building Permits (Building Permit)" />
+            <ColData colID="2" value="0.00" />
+            <ColData colID="3" value="566.51" />
+            <ColData colID="4" value="566.51" />
+            <ColData colID="5" value="0.00" />
+            <ColData colID="6" value="0.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="5">
+            <RowData rowType="item" value="01 Plans &amp; Permits  .:01.3 City &amp; Co. Lic's &amp; Fees" />
+            <ColData colID="1" value="01.3 City &amp; Co. Lic's &amp; Fees (City &amp; County Licenses &amp; Fees)" />
+            <ColData colID="2" value="0.00" />
+            <ColData colID="3" value="51.46" />
+            <ColData colID="4" value="51.46" />
+            <ColData colID="5" value="0.00" />
+            <ColData colID="6" value="0.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <SubtotalRow rowNumber="6">
+            <RowData rowType="item" value="01 Plans &amp; Permits  ." />
+            <ColData colID="1" value="Total 01 Plans &amp; Permits  . (Plans &amp; Permits)" />
+            <ColData colID="2" value="1000.00" />
+            <ColData colID="3" value="1302.01" />
+            <ColData colID="4" value="302.01" />
+            <ColData colID="5" value="1500.00" />
+            <ColData colID="6" value="1500.00" />
+            <ColData colID="7" value="0.00" />
+          </SubtotalRow>
+          <TextRow rowNumber="7" value="02 Site Work (Site Work)" />
+          <DataRow rowNumber="8">
+            <RowData rowType="item" value="02 Site Work:02.10 Demo" />
+            <ColData colID="1" value="02.10 Demo (Demolition)" />
+            <ColData colID="2" value="3000.00" />
+            <ColData colID="3" value="4686.15" />
+            <ColData colID="4" value="1686.15" />
+            <ColData colID="5" value="4500.00" />
+            <ColData colID="6" value="4500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <SubtotalRow rowNumber="9">
+            <RowData rowType="item" value="02 Site Work" />
+            <ColData colID="1" value="Total 02 Site Work (Site Work)" />
+            <ColData colID="2" value="3000.00" />
+            <ColData colID="3" value="4686.15" />
+            <ColData colID="4" value="1686.15" />
+            <ColData colID="5" value="4500.00" />
+            <ColData colID="6" value="4500.00" />
+            <ColData colID="7" value="0.00" />
+          </SubtotalRow>
+          <DataRow rowNumber="10">
+            <RowData rowType="item" value="03 Excavation" />
+            <ColData colID="1" value="03 Excavation (Excavation)" />
+            <ColData colID="2" value="5000.00" />
+            <ColData colID="3" value="5372.89" />
+            <ColData colID="4" value="372.89" />
+            <ColData colID="5" value="7500.00" />
+            <ColData colID="6" value="7500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="11">
+            <RowData rowType="item" value="04 Concrete" />
+            <ColData colID="1" value="04 Concrete (Concrete)" />
+            <ColData colID="2" value="4000.00" />
+            <ColData colID="3" value="3760.61" />
+            <ColData colID="4" value="-239.39" />
+            <ColData colID="5" value="6000.00" />
+            <ColData colID="6" value="6000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="12">
+            <RowData rowType="item" value="05 Masonry" />
+            <ColData colID="1" value="05 Masonry (Masonry)" />
+            <ColData colID="2" value="3000.00" />
+            <ColData colID="3" value="2944.55" />
+            <ColData colID="4" value="-55.45" />
+            <ColData colID="5" value="4500.00" />
+            <ColData colID="6" value="4500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="13">
+            <RowData rowType="item" value="06 Floor Framing" />
+            <ColData colID="1" value="06 Floor Framing (Floor Framing)" />
+            <ColData colID="2" value="5000.00" />
+            <ColData colID="3" value="5660.04" />
+            <ColData colID="4" value="660.04" />
+            <ColData colID="5" value="7500.00" />
+            <ColData colID="6" value="7500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="14">
+            <RowData rowType="item" value="07 Wall Framing" />
+            <ColData colID="1" value="07 Wall Framing (Wall Framing)" />
+            <ColData colID="2" value="3000.00" />
+            <ColData colID="3" value="2961.38" />
+            <ColData colID="4" value="-38.62" />
+            <ColData colID="5" value="4500.00" />
+            <ColData colID="6" value="4500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="15">
+            <RowData rowType="item" value="08 Roof Framing" />
+            <ColData colID="1" value="08 Roof Framing (Roof Framing)" />
+            <ColData colID="2" value="15000.00" />
+            <ColData colID="3" value="17146.69" />
+            <ColData colID="4" value="2146.69" />
+            <ColData colID="5" value="22500.00" />
+            <ColData colID="6" value="22500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="16">
+            <RowData rowType="item" value="09 Roof Flashing" />
+            <ColData colID="1" value="09 Roof Flashing (Roof Flashing)" />
+            <ColData colID="2" value="1000.00" />
+            <ColData colID="3" value="1026.83" />
+            <ColData colID="4" value="26.83" />
+            <ColData colID="5" value="1500.00" />
+            <ColData colID="6" value="1500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="17">
+            <RowData rowType="item" value="10 Exterior Trim &amp; Decks" />
+            <ColData colID="1" value="10 Exterior Trim &amp; Decks (Exterior Trim &amp; Decks)" />
+            <ColData colID="2" value="1500.00" />
+            <ColData colID="3" value="1317.50" />
+            <ColData colID="4" value="-182.50" />
+            <ColData colID="5" value="2250.00" />
+            <ColData colID="6" value="2250.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="18">
+            <RowData rowType="item" value="11 Siding" />
+            <ColData colID="1" value="11 Siding (Siding)" />
+            <ColData colID="2" value="2000.00" />
+            <ColData colID="3" value="1742.58" />
+            <ColData colID="4" value="-257.42" />
+            <ColData colID="5" value="3000.00" />
+            <ColData colID="6" value="3000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="19">
+            <RowData rowType="item" value="12 Doors &amp; Trim" />
+            <ColData colID="1" value="12 Doors &amp; Trim (Doors &amp; Trim)" />
+            <ColData colID="2" value="1500.00" />
+            <ColData colID="3" value="1026.38" />
+            <ColData colID="4" value="-473.62" />
+            <ColData colID="5" value="2250.00" />
+            <ColData colID="6" value="2250.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="20">
+            <RowData rowType="item" value="13 Windows &amp; Trim" />
+            <ColData colID="1" value="13 Windows &amp; Trim (Windows &amp; Trim)" />
+            <ColData colID="2" value="2500.00" />
+            <ColData colID="3" value="2532.28" />
+            <ColData colID="4" value="32.28" />
+            <ColData colID="5" value="3750.00" />
+            <ColData colID="6" value="3750.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="21">
+            <RowData rowType="item" value="14 Plumbing" />
+            <ColData colID="1" value="14 Plumbing (Plumbing)" />
+            <ColData colID="2" value="3000.00" />
+            <ColData colID="3" value="2804.87" />
+            <ColData colID="4" value="-195.13" />
+            <ColData colID="5" value="4500.00" />
+            <ColData colID="6" value="4500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="22">
+            <RowData rowType="item" value="15 HVAC" />
+            <ColData colID="1" value="15 HVAC (Heating &amp; Cooling)" />
+            <ColData colID="2" value="1500.00" />
+            <ColData colID="3" value="1209.41" />
+            <ColData colID="4" value="-290.59" />
+            <ColData colID="5" value="2250.00" />
+            <ColData colID="6" value="2250.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="23">
+            <RowData rowType="item" value="16 Electrical &amp; Lighting" />
+            <ColData colID="1" value="16 Electrical &amp; Lighting (Electrical &amp; Lighting)" />
+            <ColData colID="2" value="2000.00" />
+            <ColData colID="3" value="2055.37" />
+            <ColData colID="4" value="55.37" />
+            <ColData colID="5" value="3000.00" />
+            <ColData colID="6" value="3000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="24">
+            <RowData rowType="item" value="17 Insulation" />
+            <ColData colID="1" value="17 Insulation (Insulation)" />
+            <ColData colID="2" value="1500.00" />
+            <ColData colID="3" value="1845.01" />
+            <ColData colID="4" value="345.01" />
+            <ColData colID="5" value="2250.00" />
+            <ColData colID="6" value="2250.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="25">
+            <RowData rowType="item" value="18 Interior Walls" />
+            <ColData colID="1" value="18 Interior Walls (Interior Walls)" />
+            <ColData colID="2" value="2500.00" />
+            <ColData colID="3" value="2452.92" />
+            <ColData colID="4" value="-47.08" />
+            <ColData colID="5" value="3750.00" />
+            <ColData colID="6" value="3750.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="26">
+            <RowData rowType="item" value="19 Ceilings &amp; Cover" />
+            <ColData colID="1" value="19 Ceilings &amp; Cover (Ceilings &amp; Coverings)" />
+            <ColData colID="2" value="2500.00" />
+            <ColData colID="3" value="2474.83" />
+            <ColData colID="4" value="-25.17" />
+            <ColData colID="5" value="3750.00" />
+            <ColData colID="6" value="3750.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="27">
+            <RowData rowType="item" value="20 Millwork &amp; Trim" />
+            <ColData colID="1" value="20 Millwork &amp; Trim (Millwork &amp; Trim)" />
+            <ColData colID="2" value="5000.00" />
+            <ColData colID="3" value="4061.99" />
+            <ColData colID="4" value="-938.01" />
+            <ColData colID="5" value="7500.00" />
+            <ColData colID="6" value="7500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="28">
+            <RowData rowType="item" value="21 Cabinets &amp; Vanities" />
+            <ColData colID="1" value="21 Cabinets &amp; Vanities (Cabinets &amp; Vanities)" />
+            <ColData colID="2" value="2000.00" />
+            <ColData colID="3" value="1446.35" />
+            <ColData colID="4" value="-553.65" />
+            <ColData colID="5" value="3000.00" />
+            <ColData colID="6" value="3000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="29">
+            <RowData rowType="item" value="22 Specialty" />
+            <ColData colID="1" value="22 Specialty" />
+            <ColData colID="2" value="500.00" />
+            <ColData colID="3" value="1023.87" />
+            <ColData colID="4" value="523.87" />
+            <ColData colID="5" value="750.00" />
+            <ColData colID="6" value="750.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="30">
+            <RowData rowType="item" value="23 Floor Coverings" />
+            <ColData colID="1" value="23 Floor Coverings (Floor Coverings)" />
+            <ColData colID="2" value="2000.00" />
+            <ColData colID="3" value="1812.47" />
+            <ColData colID="4" value="-187.53" />
+            <ColData colID="5" value="3000.00" />
+            <ColData colID="6" value="3000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="31">
+            <RowData rowType="item" value="24 Paint" />
+            <ColData colID="1" value="24 Paint (Painting)" />
+            <ColData colID="2" value="2000.00" />
+            <ColData colID="3" value="5475.39" />
+            <ColData colID="4" value="3475.39" />
+            <ColData colID="5" value="3000.00" />
+            <ColData colID="6" value="3000.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="32">
+            <RowData rowType="item" value="25 Cleanup" />
+            <ColData colID="1" value="25 Cleanup (Cleanup &amp; Restoration)" />
+            <ColData colID="2" value="1000.00" />
+            <ColData colID="3" value="803.27" />
+            <ColData colID="4" value="-196.73" />
+            <ColData colID="5" value="1500.00" />
+            <ColData colID="6" value="1500.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <DataRow rowNumber="33">
+            <RowData rowType="item" value="26 Landscape &amp; Paving" />
+            <ColData colID="1" value="26 Landscape &amp; Paving (Landscape &amp; Paving)" />
+            <ColData colID="2" value="2600.00" />
+            <ColData colID="3" value="2604.83" />
+            <ColData colID="4" value="4.83" />
+            <ColData colID="5" value="3900.00" />
+            <ColData colID="6" value="3900.00" />
+            <ColData colID="7" value="0.00" />
+          </DataRow>
+          <SubtotalRow rowNumber="34">
+            <ColData colID="1" value="Total Service" />
+            <ColData colID="2" value="75600.00" />
+            <ColData colID="3" value="81550.47" />
+            <ColData colID="4" value="5950.47" />
+            <ColData colID="5" value="113400.00" />
+            <ColData colID="6" value="113400.00" />
+            <ColData colID="7" value="0.00" />
+          </SubtotalRow>
+          <TotalRow rowNumber="35">
+            <ColData colID="1" value="TOTAL" />
+            <ColData colID="2" value="75600.00" />
+            <ColData colID="3" value="81550.47" />
+            <ColData colID="4" value="5950.47" />
+            <ColData colID="5" value="113400.00" />
+            <ColData colID="6" value="113400.00" />
+            <ColData colID="7" value="0.00" />
+          </TotalRow>
+        </ReportData>
+      </ReportRet>
+    </JobReportQueryRs>
+  </QBXMLMsgsRs>
+</QBXML>

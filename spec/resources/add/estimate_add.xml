@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <EstimateAddRs requestID="3" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <EstimateRet>
+        <TxnID>32-1413908999</TxnID>
+        <TimeCreated>2014-10-21T14:29:59-02:00</TimeCreated>
+        <TimeModified>2014-10-21T14:29:59-02:00</TimeModified>
+        <EditSequence>1413908999</EditSequence>
+        <TxnNumber>16</TxnNumber>
+        <CustomerRef>
+          <ListID>80000007-1410200372</ListID>
+          <FullName>Mark Twain</FullName>
+        </CustomerRef>
+        <TemplateRef>
+          <ListID>80000016-1408037693</ListID>
+          <FullName>Retail Estimate</FullName>
+        </TemplateRef>
+        <TxnDate>2014-10-20</TxnDate>
+        <RefNumber>3</RefNumber>
+        <IsActive>true</IsActive>
+        <DueDate>2014-10-20</DueDate>
+        <Subtotal>111.11</Subtotal>
+        <SalesTaxPercentage>0.00</SalesTaxPercentage>
+        <SalesTaxTotal>0.00</SalesTaxTotal>
+        <TotalAmount>111.11</TotalAmount>
+        <IsToBeEmailed>false</IsToBeEmailed>
+        <EstimateLineRet>
+          <TxnLineID>34-1413908999</TxnLineID>
+          <ItemRef>
+            <ListID>80000001-1409348960</ListID>
+            <FullName>Fibra de Carbono</FullName>
+          </ItemRef>
+          <Desc>Fibras de carbono</Desc>
+          <Rate>111.111</Rate>
+          <Amount>111.11</Amount>
+          <SalesTaxCodeRef>
+            <ListID>80000002-1408037693</ListID>
+            <FullName>Non</FullName>
+          </SalesTaxCodeRef>
+        </EstimateLineRet>
+      </EstimateRet>
+    </EstimateAddRs>
+  </QBXMLMsgsRs>
+</QBXML>

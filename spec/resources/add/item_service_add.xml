@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<QBXML>
+  <QBXMLMsgsRs>
+    <ItemServiceAddRs requestID="2" statusCode="0" statusSeverity="Info" statusMessage="Status OK">
+      <ItemServiceRet>
+        <ListID>80000019-1413224720</ListID>
+        <TimeCreated>2014-10-13T15:25:20-02:00</TimeCreated>
+        <TimeModified>2014-10-13T15:25:20-02:00</TimeModified>
+        <EditSequence>1413224720</EditSequence>
+        <Name>Service item name</Name>
+        <FullName>Service item name</FullName>
+        <IsActive>true</IsActive>
+        <Sublevel>0</Sublevel>
+        <SalesOrPurchase>
+          <Price>10.00</Price>
+          <AccountRef>
+            <ListID>80000012-1408037704</ListID>
+            <FullName>Computer and Internet Expenses</FullName>
+          </AccountRef>
+        </SalesOrPurchase>
+      </ItemServiceRet>
+    </ItemServiceAddRs>
+  </QBXMLMsgsRs>
+</QBXML>
