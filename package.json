@@ -1,0 +1,26 @@
+{
+  "name": "qbwc_integrator",
+  "description": "System to test the Quickbooks web connector.",
+  "version": "0.0.0",
+  "author": "Alexandre Mondaini Calvão <apotema@gmail.com>",
+  "devDependencies": {
+    "webpack": "~1.12.9",
+    "expose-loader": "~0.6.0",
+    "imports-loader": "~0.6.3",
+    "exports-loader": "~0.6.2",
+    "ts-loader": "~0.7.2",
+    "tsconfig-lint": "^0.2.0",
+    "tslint": "^3.2.0",
+    "tslint-loader": "^2.1.0",
+    "lodash": "~2.4.1"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "systemjs": "0.19.6",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.3",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
+}

@@ -1,0 +1,4 @@
+# foreman start -f Procfile.dev
+
+web: rails s
+webpack: webpack --config config/webpack/main.config.js --watch --colors
