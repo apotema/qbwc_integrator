@@ -1,3 +1,6 @@
+// Styles
+require("!style!css!less!bootstrap/less/bootstrap.less");
+require("../stylesheets/theme.css");
 // Polyfills
 import 'es6-promise';
 import 'es6-shim';

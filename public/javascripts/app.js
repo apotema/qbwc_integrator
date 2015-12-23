@@ -3,8 +3,8 @@ webpackJsonp([0],{
 /***/ 0:
 /***/ function(module, exports, __webpack_require__) {
 
-	var browser_1 = __webpack_require__(1);
-	var app_component_1 = __webpack_require__(223);
+	var browser_1 = __webpack_require__(70);
+	var app_component_1 = __webpack_require__(292);
 	function main() {
 	    return browser_1.bootstrap(app_component_1.AppComponent, [])
 	        .catch(function (err) { return console.error(err); });
@@ -15,7 +15,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 223:
+/***/ 292:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -27,9 +27,9 @@ webpackJsonp([0],{
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	var core_1 = __webpack_require__(22);
-	var hero_detail_component_1 = __webpack_require__(519);
-	var hero_service_1 = __webpack_require__(520);
+	var core_1 = __webpack_require__(91);
+	var hero_detail_component_1 = __webpack_require__(293);
+	var hero_service_1 = __webpack_require__(294);
 	var AppComponent = (function () {
 	    function AppComponent(_heroService) {
 	        this._heroService = _heroService;
@@ -60,7 +60,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 519:
+/***/ 293:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -72,7 +72,7 @@ webpackJsonp([0],{
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	var core_1 = __webpack_require__(22);
+	var core_1 = __webpack_require__(91);
 	var HeroDetailComponent = (function () {
 	    function HeroDetailComponent() {
 	    }
@@ -91,7 +91,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 520:
+/***/ 294:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -103,8 +103,8 @@ webpackJsonp([0],{
 	var __metadata = (this && this.__metadata) || function (k, v) {
 	    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 	};
-	var mock_heroes_1 = __webpack_require__(521);
-	var core_1 = __webpack_require__(22);
+	var mock_heroes_1 = __webpack_require__(295);
+	var core_1 = __webpack_require__(91);
 	var HeroService = (function () {
 	    function HeroService() {
 	    }
@@ -122,7 +122,7 @@ webpackJsonp([0],{
 
 /***/ },
 
-/***/ 521:
+/***/ 295:
 /***/ function(module, exports) {
 
 	exports.HEROES = [
