@@ -6,8 +6,12 @@ Rails.application.routes.draw do
   get '/qbwc/action' => 'qbwc#_generate_wsdl'
   get '/qbwc/add_form' => 'requests#qbwc_add_form'
 
-  resources :company, only: [] do
-    resources :vendors, only: [:index]
+  resources :companies, only: [:show, :create] do
+    resources :vendors, only: [] do
+      collection do
+        post "query"
+      end
+    end
   end
 
   root 'static#index'

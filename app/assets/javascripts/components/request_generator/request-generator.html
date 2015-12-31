@@ -1,0 +1,30 @@
+<h3>Create request</h3>
+<form (ngSubmit)="onSubmit()" #heroForm="ngForm">
+  <div class="form-group">
+    <label for="type">Type</label>
+    <select class="form-control" required
+      [(ngModel)]="model.type"
+        ngControl="type" #type="ngForm" >
+      <optgroup *ngFor="#p of types" label={{p.name}}>
+        <option *ngFor="#sub_type of p.value" [value]="p.name+'-'+sub_type">
+          {{sub_type}}
+         </option>
+      </optgroup>
+    </select>
+    
+    <div [hidden]="type.valid" class="alert alert-danger">
+      Type is required
+    </div>
+  </div>
+  <div class='row'>
+    <div class='col-md-12'>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          {{model.type}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-default" 
+    [disabled]="!heroForm.form.valid">Submit</button>
+</form>

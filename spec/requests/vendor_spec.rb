@@ -7,7 +7,7 @@ describe VendorsController do
   describe "#index" do
 
     it "creates a vendor list request" do
-      get company_vendors_path(company)
+      post query_company_vendors_path(company)
       expect(response_body["state"]).to be_eql "pending"
     end
 

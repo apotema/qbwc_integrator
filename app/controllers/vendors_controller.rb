@@ -1,6 +1,6 @@
 class VendorsController < ApplicationController
 
-  def index
+  def query
     vendor_query_xml = VendorQbxml::Query.factory(params[:query])
     if vendor_query_xml.valid?
       request = company.requests.create(
