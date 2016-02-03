@@ -1,14 +1,14 @@
-import {Component} from 'angular2/core';
-import {CompanyService} from '../../services/company_service';
-import {Company} from '../../models/company';
-import {RouteParams} from 'angular2/router';
-import {RequestGeneratorCmp} from '../request_generator/request-generator'
-
+import {Component}             from 'angular2/core';
+import {CompanyService}        from '../../services/company_service';
+import {Company}               from '../../models/company';
+import {RouteParams}           from 'angular2/router';
+import {RequestGeneratorCmp}   from '../request_generator/request-generator'
+import {RequestListCmp}        from '../request_list/request-list'
 
 @Component({
-    selector: 'company',
+  selector: 'company',
   template: require("./company.html"),
-  directives: [RequestGeneratorCmp]
+  directives: [RequestGeneratorCmp, RequestListCmp]
 })
 export class CompanyCmp {
 
@@ -23,9 +23,9 @@ export class CompanyCmp {
   ngAfterViewInit() {
     if (!this._company_service.company) {
       this._company_service.get(this._route_params.get('company_id'))
-        .subscribe( company => {
-          this.company = company;
-        })
+      .subscribe( company => {
+        this.company = company;
+      })
     }
   }
 

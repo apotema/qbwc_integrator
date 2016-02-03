@@ -1,0 +1,7 @@
+<h2>Requests</h2>
+<ul class="requests">
+  <li *ngFor="#request of requests" >
+    <span class="badge">{{request.id}}</span> {{request.name}}
+  </li>
+</ul>
+<request-detail [request]="selectedHero"></request-detail>
