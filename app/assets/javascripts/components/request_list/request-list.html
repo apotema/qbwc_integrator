@@ -1,7 +1,18 @@
 <h2>Requests</h2>
-<ul class="requests">
-  <li *ngFor="#request of requests" >
-    <span class="badge">{{request.id}}</span> {{request.name}}
-  </li>
-</ul>
-<request-detail [request]="selectedHero"></request-detail>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="#request of requests">
+      <th scope="row">{{request.id}}</th>
+      <td>{{request.state}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<request-detail [request]="selectedRequest"></request-detail>

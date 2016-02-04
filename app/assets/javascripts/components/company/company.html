@@ -7,10 +7,11 @@
         <dd>Password</dd>
         <dt>{{company.password}}</dt>
       </dl>
+      <a *ngIf="company" class="btn btn-info" href="/companies/{{company.id}}/qbwc_file" >QBWC FILE</a>
     </div>
     <request-generator></request-generator>
   </div>
-  <div class="col-md-5">
+  <div class="col-md-8">
     <request-list></request-list>
   </div>
 </div>

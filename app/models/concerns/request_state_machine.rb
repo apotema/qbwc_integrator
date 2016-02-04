@@ -14,28 +14,12 @@ module RequestStateMachine
         request.quickbooks_end = Time.now.utc
       end
 
-      before_transition any => :responding do |request, transition|
-        request.worker_start = Time.now.utc
-      end
-
-      before_transition :responding => any do |request, transition|
-        request.worker_end = Time.now.utc
-      end
-
       event :process do
         transition :pending => :processing
       end
 
       event :queue do
-        transition :processing => :queueing
-      end
-
-      event :respond do
-        transition :queueing => :responding
-      end
-
-      event :finish do
-        transition :responding => :done
+        transition :processing => :processed
       end
 
       event :failed do

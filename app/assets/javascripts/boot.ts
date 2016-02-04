@@ -6,6 +6,7 @@ import {ROUTER_PROVIDERS}      from 'angular2/router';
 import {LocationStrategy}      from 'angular2/router';
 import {HashLocationStrategy}  from 'angular2/router';
 import {HTTP_PROVIDERS}        from 'angular2/http';
+import {JSONP_PROVIDERS}       from 'angular2/http';
 
 export function main() {
     //enableProdMode();
@@ -13,6 +14,7 @@ export function main() {
     // These are dependencies of our App
     HTTP_PROVIDERS,
     ROUTER_PROVIDERS,
+    JSONP_PROVIDERS,
     // ELEMENT_PROBE_PROVIDERS
     provide(LocationStrategy, { useClass: HashLocationStrategy })
     ]).catch(err => console.error(err));

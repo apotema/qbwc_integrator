@@ -29,8 +29,8 @@ class RequestService
     end
   end
 
-  def process_error(message)
-    QuickbooksErrorWorker.perform_async(processing_request.id, message)
+  def process_error message
+    # QuickbooksErrorWorker.perform_async(processing_request.id, message)
   end
 
   private

@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   get '/qbwc/add_form' => 'requests#qbwc_add_form'
 
   resources :companies, only: [:show, :create] do
+    member do
+      get :qbwc_file
+    end
     resources :requests, only: [:index]
     resources :vendors, only: [] do
       collection do

@@ -22,6 +22,7 @@ class Company < ActiveRecord::Base
   end
 
   def generate_tokens
+    self.qwc_file_id = SecureRandom.uuid
     self.qwc_owner_id = SecureRandom.uuid
     self.qbwc_token = generate_qbwc_token
   end

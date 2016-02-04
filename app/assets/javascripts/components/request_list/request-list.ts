@@ -19,15 +19,16 @@ export class RequestListCmp {
   private companyId;
 
   constructor(
-    private _http: Http, 
-    private _route_params: RouteParams, 
+    private _http: Http,
+    private _route_params: RouteParams,
     private _request_service: RequestService) {
     this.companyId = this._route_params.get('company_id');
-    this.requests = this._request_service.list_requests(this.companyId);
+    this._request_service.list_requests(this.companyId)
+      .then(items => this.requests = items);
   }
 
   ngAfterViewInit() {
-
+    
   }
 
 }
