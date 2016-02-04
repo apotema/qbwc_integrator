@@ -16,6 +16,8 @@ export class RequestListCmp {
 
   public requests: Request[];
 
+  private request;
+
   private companyId;
 
   constructor(
@@ -25,6 +27,10 @@ export class RequestListCmp {
     this.companyId = this._route_params.get('company_id');
     this._request_service.list_requests(this.companyId)
       .then(items => this.requests = items);
+  }
+
+  selectRequest(request) {
+    this.request = request;
   }
 
   ngAfterViewInit() {

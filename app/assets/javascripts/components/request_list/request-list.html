@@ -8,11 +8,16 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="#request of requests">
+    <tr *ngFor="#request of requests" (click)="selectRequest(request)">
       <th scope="row">{{request.id}}</th>
       <td>{{request.state}}</td>
     </tr>
   </tbody>
 </table>
+
+<div *ngIf="request">
+  <p>{{request.id}}</p>
+  <textarea rows="15" style="width: 100%;">{{request.quickbooks_response}}</textarea>
+</div>
 
 <request-detail [request]="selectedRequest"></request-detail>

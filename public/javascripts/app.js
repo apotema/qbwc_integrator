@@ -297,6 +297,9 @@ webpackJsonp([0],{
 	        this._request_service.list_requests(this.companyId)
 	            .then(function (items) { return _this.requests = items; });
 	    }
+	    RequestListCmp.prototype.selectRequest = function (request) {
+	        this.request = request;
+	    };
 	    RequestListCmp.prototype.ngAfterViewInit = function () {
 	    };
 	    RequestListCmp = __decorate([
@@ -356,7 +359,7 @@ webpackJsonp([0],{
 /***/ 340:
 /***/ function(module, exports) {
 
-	module.exports = "<h2>Requests</h2>\n\n<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th>#</th>\n      <th>Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"#request of requests\">\n      <th scope=\"row\">{{request.id}}</th>\n      <td>{{request.state}}</td>\n    </tr>\n  </tbody>\n</table>\n\n<request-detail [request]=\"selectedRequest\"></request-detail>\n"
+	module.exports = "<h2>Requests</h2>\n\n<table class=\"table table-striped\">\n  <thead>\n    <tr>\n      <th>#</th>\n      <th>Status</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr *ngFor=\"#request of requests\" (click)=\"selectRequest(request)\">\n      <th scope=\"row\">{{request.id}}</th>\n      <td>{{request.state}}</td>\n    </tr>\n  </tbody>\n</table>\n\n<div *ngIf=\"request\">\n  <p>{{request.id}}</p>\n  <textarea rows=\"15\" style=\"width: 100%;\">{{request.quickbooks_response}}</textarea>\n</div>\n\n<request-detail [request]=\"selectedRequest\"></request-detail>\n"
 
 /***/ },
 

@@ -17,6 +17,13 @@
 class RequestSerializer < ActiveModel::Serializer
 
   attributes :id, :quickbooks_request, :state, :qbwc_uuid, :quickbooks_start
-  attributes :quickbooks_end, :quickbooks_response 
+  attributes :quickbooks_end, :quickbooks_response
+
+  def quickbooks_response
+    doc = Nokogiri.XML(object.quickbooks_response) do |config|
+      config.default_xml.noblanks
+    end
+    doc.to_xml(:indent => 2)
+  end 
 
 end
