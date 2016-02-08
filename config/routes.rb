@@ -13,7 +13,9 @@ Rails.application.routes.draw do
     resources :requests, only: [:index]
     resources :vendors, only: [] do
       collection do
-        post "query"
+        post :query
+        post :add
+        post :mod
       end
     end
   end

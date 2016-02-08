@@ -1,3 +1,4 @@
-<div *ngFor="#field of fieldsOfModel(request.type)" >
-  <input [(ngModel)]="request.params[field]" type="text" placeholder="{{field}}">
+<div *ngFor="#field of fieldsOfModel(request.type)" class="form-group" >
+  <label for="field">{{field}}</label>
+  <input id="{{field}}" class="form-control" [(ngModel)]="request.params[field]" type="text" placeholder="{{field}}">
 </div>

@@ -1,5 +1,7 @@
 class ApplicationController < ActionController::Base
 
+  protect_from_forgery with: :null_session
+
   def company
     Company.find(params[:company_id])
   end

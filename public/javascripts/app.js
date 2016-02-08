@@ -232,7 +232,7 @@ webpackJsonp([0],{
 	    }
 	    RequestGeneratorCmp.prototype.onSubmit = function () {
 	        var companyId = this._route_params.get('company_id');
-	        this._http.post("/companies/" + companyId + "/" + this.model.type.toLowerCase() + "/" + this.model.action.toLowerCase(), JSON.stringify(this.model.params))
+	        this._http.post("/companies/" + companyId + "/" + this.model.type.toLowerCase() + "/" + this.model.action.toLowerCase(), JSON.stringify({ 'qbxml': this.model.params }))
 	            .map(function (res) { return console.log(res); })
 	            .subscribe(function (people) { return console.log(people); });
 	    };
@@ -328,14 +328,14 @@ webpackJsonp([0],{
 /***/ 336:
 /***/ function(module, exports) {
 
-	module.exports = "<div *ngFor=\"#field of fieldsOfModel(request.type)\" >\n  <input [(ngModel)]=\"request.params[field]\" type=\"text\" placeholder=\"{{field}}\">\n</div>\n"
+	module.exports = "<div *ngFor=\"#field of fieldsOfModel(request.type)\" class=\"form-group\" >\n  <label for=\"field\">{{field}}</label>\n  <input id=\"{{field}}\" class=\"form-control\" [(ngModel)]=\"request.params[field]\" type=\"text\" placeholder=\"{{field}}\">\n</div>\n"
 
 /***/ },
 
 /***/ 337:
 /***/ function(module, exports) {
 
-	module.exports = "<h3>Create request</h3>\n<form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n  <div class=\"form-group\">\n    <label for=\"type\">Type</label>\n    <select class=\"form-control\" required [(ngModel)]=\"model.type\"\n        ngControl=\"type\" #type=\"ngForm\" >  \n      <option *ngFor=\"#type of types\" [value]=\"type\">\n        {{type}}\n      </option>\n    </select>\n\n    <label for=\"action\">Action</label>\n    <select class=\"form-control\" required [(ngModel)]=\"model.action\"\n      ngControl=\"action\" #type=\"ngForm\" >\n      <option *ngFor=\"#action of actions\" [value]=\"action\">\n        {{action}}\n       </option>\n    </select>\n    \n    <div [hidden]=\"type.valid\" class=\"alert alert-danger\">\n      Type is required\n    </div>\n  </div>\n  <div class='row'>\n    <div class='col-md-12'>\n      <div class=\"panel panel-default\">\n        <div class=\"panel-body\">\n          {{model.type}} + {{model.action}}\n        </div>\n      </div>\n    </div>\n  </div>\n  <request-form [request]=\"model\"></request-form>\n  <button type=\"submit\" class=\"btn btn-default\" \n    [disabled]=\"!heroForm.form.valid\">Submit</button>\n</form>\n"
+	module.exports = "<h3>Create request</h3>\n<form (ngSubmit)=\"onSubmit()\" #heroForm=\"ngForm\">\n  <div class=\"form-group\">\n    <label for=\"type\">Type</label>\n    <select class=\"form-control\" required [(ngModel)]=\"model.type\"\n        ngControl=\"type\" #type=\"ngForm\" >  \n      <option *ngFor=\"#type of types\" [value]=\"type\">\n        {{type}}\n      </option>\n    </select>\n\n    <label for=\"action\">Action</label>\n    <select class=\"form-control\" required [(ngModel)]=\"model.action\"\n      ngControl=\"action\" #type=\"ngForm\" >\n      <option *ngFor=\"#action of actions\" [value]=\"action\">\n        {{action}}\n       </option>\n    </select>\n    \n    <div [hidden]=\"type.valid\" class=\"alert alert-danger\">\n      Type is required\n    </div>\n  </div>\n  <div class='row'>\n    <div class='col-md-12'>\n      <div class=\"panel panel-default\">\n        <div class=\"panel-body\">\n          {{model.type}} - {{model.action}}\n        </div>\n      </div>\n    </div>\n  </div>\n  <request-form *ngIf=\"model.action != 'Query'\" [request]=\"model\"></request-form>\n  <button type=\"submit\" class=\"btn btn-default\" \n    [disabled]=\"!heroForm.form.valid\">Submit</button>\n</form>\n"
 
 /***/ },
 

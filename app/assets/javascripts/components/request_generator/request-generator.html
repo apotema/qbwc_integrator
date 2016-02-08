@@ -25,12 +25,12 @@
     <div class='col-md-12'>
       <div class="panel panel-default">
         <div class="panel-body">
-          {{model.type}} + {{model.action}}
+          {{model.type}} - {{model.action}}
         </div>
       </div>
     </div>
   </div>
-  <request-form [request]="model"></request-form>
+  <request-form *ngIf="model.action != 'Query'" [request]="model"></request-form>
   <button type="submit" class="btn btn-default" 
     [disabled]="!heroForm.form.valid">Submit</button>
 </form>
