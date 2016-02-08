@@ -17,20 +17,6 @@ export class RequestService {
     return this._http.get(`/companies/${company_id}/requests`)
       .toPromise()
       .then(response => response.json())
-      // .map(res => console.log(res.json()))
-      // .subscribe(res => {
-      //   console.log(res);
-      // });
-
-    // return this._jsonp
-    //   .get(`/companies/${company_id}/requests`)
-    //   .toPromise()
-    //   .then((response) => response.json()[1]);
-    // for (var request in requests){
-    //   var r = new Request();
-    //   r.type = request.name;
-    //   request_list.push(r);
-    // }
   }
 
 }

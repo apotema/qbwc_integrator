@@ -1,0 +1,3 @@
+<div *ngFor="#field of fieldsOfModel(request.type)" >
+  <input [(ngModel)]="request.params[field]" type="text" placeholder="{{field}}">
+</div>
