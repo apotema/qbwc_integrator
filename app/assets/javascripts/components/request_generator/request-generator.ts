@@ -20,12 +20,17 @@ export class RequestGeneratorCmp {
   public model = new Request(this.types[0], this.actions[0]);
 
   onSubmit() {
-      var companyId = this._route_params.get('company_id');
-      this._http.post(
-        `/companies/${companyId}/${this.model.type.toLowerCase()}/${this.model.action.toLowerCase()}`,
-        JSON.stringify({ 'qbxml': this.model.params }))
-          .map(res => console.log(res))
-          .subscribe(people => console.log(people));
+    var requestOptions = new RequestOptions()
+    requestOptions.headers = new Headers;
+    requestOptions.headers.set("Content-Type", "application/json;charset=UTF-8");
+    var companyId = this._route_params.get('company_id');
+    this._http.post(
+      `/companies/${companyId}/${this.model.type.toLowerCase()}/${this.model.action.toLowerCase()}`,
+      JSON.stringify({ 'qbxml': this.model.params }),
+      requestOptions
+    )
+      .map(res => console.log(res))
+      .subscribe(people => console.log(people));
   }
 
   constructor(private _http: Http, private _route_params: RouteParams) {

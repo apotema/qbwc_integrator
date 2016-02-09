@@ -351,6 +351,7 @@ webpackJsonp([3,1],{
 	var request_1 = __webpack_require__(232);
 	var router_1 = __webpack_require__(15);
 	var http_1 = __webpack_require__(25);
+	var http_2 = __webpack_require__(25);
 	var request_form_1 = __webpack_require__(530);
 	var RequestGeneratorCmp = (function () {
 	    function RequestGeneratorCmp(_http, _route_params) {
@@ -361,8 +362,11 @@ webpackJsonp([3,1],{
 	        this.model = new request_1.Request(this.types[0], this.actions[0]);
 	    }
 	    RequestGeneratorCmp.prototype.onSubmit = function () {
+	        var requestOptions = new http_2.RequestOptions();
+	        requestOptions.headers = new http_2.Headers;
+	        requestOptions.headers.set("Content-Type", "application/json;charset=UTF-8");
 	        var companyId = this._route_params.get('company_id');
-	        this._http.post("/companies/" + companyId + "/" + this.model.type.toLowerCase() + "/" + this.model.action.toLowerCase(), JSON.stringify({ 'qbxml': this.model.params }))
+	        this._http.post("/companies/" + companyId + "/" + this.model.type.toLowerCase() + "/" + this.model.action.toLowerCase(), JSON.stringify({ 'qbxml': this.model.params }), requestOptions)
 	            .map(function (res) { return console.log(res); })
 	            .subscribe(function (people) { return console.log(people); });
 	    };
