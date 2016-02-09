@@ -17,6 +17,11 @@ var config = module.exports = {
   },
 
   module: {
+    preLoaders: [
+      // { test: /\.ts$/, loader: 'tslint-loader', exclude: [ root('node_modules') ] },
+      // TODO(gdi2290): `exclude: [ root('node_modules/rxjs') ]` fixed with rxjs 5 beta.2 release
+      { test: /\.js$/, loader: "source-map-loader", exclude: [ root('node_modules/rxjs') ] }
+    ],
     loaders: [
       {
           test: /\.css$/,
@@ -46,7 +51,7 @@ var config = module.exports = {
             2375  // 2375 -> Duplicate string index signature
           ]
         },
-        exclude: [ /\.spec\.ts$/, /\.e2e\.ts$/, /node_modules/ ]
+        exclude: [ /\.(spec|e2e|async)\.ts$/ ]
       }
     ],
     noParse: [ /zone\.js\/dist\/.+/, /angular2\/bundles\/.+/ ]
@@ -56,7 +61,7 @@ var config = module.exports = {
 config.resolve = {
   // tell webpack which extensions to auto search when it resolves modules. With this,
   // you'll be able to do `require('./utils')` instead of `require('./utils.js')`
-  extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.less'],
+  extensions: prepend(['.ts','.js','.json','.css','.html'], '.async')
 };
 
 
@@ -72,7 +77,24 @@ config.output = {
 };
 
 config.plugins = [
-  new CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.js', minChunks: Infinity }),
+  new webpack.optimize.OccurenceOrderPlugin(true),
+  new webpack.optimize.CommonsChunkPlugin({ name: 'polyfills', filename: 'polyfills.bundle.js', minChunks: Infinity }),
+  // new CommonsChunkPlugin({ name: 'vendor', filename: 'vendor', minChunks: Infinity }),
   new CommonsChunkPlugin({ name: 'common', filename: 'common.js', minChunks: 2, chunks: ['app', 'vendor'] }),
   new ExtractTextPlugin("../stylesheets/app.css")
 ];
+
+function root(args) {
+  args = Array.prototype.slice.call(arguments, 0);
+  return path.join.apply(path, [__dirname].concat(args));
+}
+
+function prepend(extensions, args) {
+  args = args || [];
+  if (!Array.isArray(args)) { args = [args] }
+  return extensions.reduce(function(memo, val) {
+    return memo.concat(val, args.map(function(prefix) {
+      return prefix + val
+    }));
+  }, ['']);
+}

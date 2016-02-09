@@ -11,6 +11,7 @@
     "url-loader": "~0.5.7",
     "less": "^2.5.3",
     "less-loader": "^2.2.2",
+    "source-map-loader": "^0.1.5",
     "lodash": "~2.4.1",
     "style-loader": "^0.13.0",
     "ts-loader": "~0.7.2",
