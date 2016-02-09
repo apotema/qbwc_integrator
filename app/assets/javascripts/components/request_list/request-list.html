@@ -1,19 +1,21 @@
 <h2>Requests</h2>
 
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Status</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="#request of requests" (click)="selectRequest(request)">
-      <th scope="row">{{request.id}}</th>
-      <td>{{request.state}}</td>
-    </tr>
-  </tbody>
-</table>
+<div class="request-list">
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Status</th>
+      </tr>
+    </thead>  
+    <tbody>
+      <tr *ngFor="#request of requests" (click)="selectRequest(request)">
+        <th scope="row">{{request.id}}</th>
+        <td>{{request.state}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <div *ngIf="request">
   <p>{{request.id}}</p>

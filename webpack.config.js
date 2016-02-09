@@ -24,6 +24,10 @@ var config = module.exports = {
     ],
     loaders: [
       {
+        test: /\.scss$/,
+        loaders: ["style", "css", "sass"]
+      },
+      {
           test: /\.css$/,
           loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },

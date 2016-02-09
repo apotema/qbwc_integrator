@@ -7,7 +7,7 @@ import {RequestService}        from '../../services/request_service';
 
 @Component({
   selector: 'request-list',
-  styles: [],
+  styles: [`${require('./request-list.scss')}`],
   template: require('./request-list.html'),
   viewProviders: [HTTP_PROVIDERS],
   providers: [RequestService]

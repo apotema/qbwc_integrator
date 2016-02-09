@@ -13,7 +13,6 @@ class VendorsController < ApplicationController
   end
 
   def add
-    binding.pry
     vendor_add_xml = VendorQbxml::Add.factory(params[:qbxml])
     if vendor_add_xml.valid?
       qbxml_request = company.requests.create()
