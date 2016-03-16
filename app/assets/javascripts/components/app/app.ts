@@ -41,7 +41,6 @@ import {CompanyService}        from '../../services/company_service';
 export class AppCmp {
   
   public title = 'Tour of Heroes';
-  private _company_service;
   
   constructor(
     private _router: Router, 

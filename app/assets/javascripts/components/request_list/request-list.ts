@@ -26,7 +26,7 @@ export class RequestListCmp {
     private _request_service: RequestService) {
     this.companyId = this._route_params.get('company_id');
     this._request_service.list_requests(this.companyId)
-      .then(items => this.requests = items);
+      .subscribe(items => this.requests = items.json());
   }
 
   selectRequest(request) {

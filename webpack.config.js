@@ -6,14 +6,27 @@ var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
+var ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
 
 var config = module.exports = {
   // the base path which will be used to resolve entry points
   // context: __dirname,
   // the main entry point for our application's frontend JS
   entry: {
-    'app': './app/assets/javascripts/boot.ts',
-    'vendor': './app/assets/javascripts/vendor.ts'
+    'polyfills': './app/assets/javascripts/polyfills.ts',
+    'vendor': './app/assets/javascripts/vendor.ts',
+    'app': './app/assets/javascripts/boot.ts'
+  },
+
+  resolve: {
+    extensions: ['', '.ts', '.js']
+  },
+
+  output: {
+    path: path.join('public', 'javascripts'),
+    filename: '[name].bundle.js',
+    sourceMapFilename: '[name].map',
+    chunkFilename: '[id].chunk.js'
   },
 
   module: {
@@ -44,22 +57,26 @@ var config = module.exports = {
       {test: /\.png/, loader: "url-loader?limit=100000&minetype=image/png" },
       { test: /\.html$/,  loader: 'raw-loader' },
       // Support for .ts files.
-      {
-        test: /\.ts$/,
-        loader: 'ts-loader',
-        query: {
-          'ignoreDiagnostics': [
-            2403, // 2403 -> Subsequent variable declarations
-            2300, // 2300 Duplicate identifier
-            2374, // 2374 -> Duplicate number index signature
-            2375  // 2375 -> Duplicate string index signature
-          ]
-        },
-        exclude: [ /\.(spec|e2e|async)\.ts$/ ]
-      }
-    ],
-    noParse: [ /zone\.js\/dist\/.+/, /angular2\/bundles\/.+/ ]
-  }
+      { test: /\.ts$/, loader: 'awesome-typescript-loader', exclude: [ /\.(spec|e2e)\.ts$/ ] }
+    ]
+  },
+
+  plugins: [
+    new ForkCheckerPlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(true),
+    new webpack.optimize.CommonsChunkPlugin({ name: ['app', 'vendor', 'polyfills'], minChunks: Infinity }),
+    // static assets
+    // new CopyWebpackPlugin([ { from: 'src/assets', to: 'assets' } ]),
+    // generating html
+    // new HtmlWebpackPlugin({ template: 'src/index.html', chunksSortMode: 'none' }),
+    // Environment helpers (when adding more properties make sure you include them in custom-typings.d.ts)
+    // new webpack.DefinePlugin({
+    //   'ENV': JSON.stringify(metadata.ENV),
+    //   'HMR': HMR
+    // })
+    new ExtractTextPlugin("../stylesheets/app.css")
+  ],
+
 };
 
 config.resolve = {
@@ -69,24 +86,16 @@ config.resolve = {
 };
 
 
-config.output = {
-  // this is our app/assets/javascripts directory, which is part of the Sprockets pipeline
-  path: path.join('public', 'javascripts'),
-  // the filename of the compiled bundle, e.g. app/assets/javascripts/bundle.js
-  filename: '[name].js',
-  sourceMapFilename: '[name].map',
-  chunkFilename: '[id].chunk.js',
-  // if the webpack code-splitting feature is enabled, this is the path it'll use to download bundles
-  publicPath: '/assets',
-};
-
-config.plugins = [
-  new webpack.optimize.OccurenceOrderPlugin(true),
-  new webpack.optimize.CommonsChunkPlugin({ name: 'polyfills', filename: 'polyfills.bundle.js', minChunks: Infinity }),
-  // new CommonsChunkPlugin({ name: 'vendor', filename: 'vendor', minChunks: Infinity }),
-  new CommonsChunkPlugin({ name: 'common', filename: 'common.js', minChunks: 2, chunks: ['app', 'vendor'] }),
-  new ExtractTextPlugin("../stylesheets/app.css")
-];
+// config.output = {
+//   // this is our app/assets/javascripts directory, which is part of the Sprockets pipeline
+//   path: path.join('public', 'javascripts'),
+//   // the filename of the compiled bundle, e.g. app/assets/javascripts/bundle.js
+//   filename: '[name].bundle.js',
+//   sourceMapFilename: '[name].map',
+//   chunkFilename: '[id].chunk.js',
+//   // if the webpack code-splitting feature is enabled, this is the path it'll use to download bundles
+//   publicPath: '/assets',
+// };
 
 function root(args) {
   args = Array.prototype.slice.call(arguments, 0);
