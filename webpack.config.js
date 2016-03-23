@@ -3,7 +3,6 @@ var toString  = Function.prototype.call.bind(Object.prototype.toString);
 
 var path = require('path');
 var webpack = require('webpack');
-var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 var CommonsChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 var ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin;
@@ -42,13 +41,14 @@ var config = module.exports = {
       },
       {
           test: /\.css$/,
-          loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+          loader: 'raw-loader'
+          // loader: ExtractTextPlugin.extract("style-loader", "css-loader")
       },
        // Optionally extract less files
             // or any other compile-to-css language
       {
           test: /\.less$/,
-          loader: ExtractTextPlugin.extract("style-loader", "css-loader!less-loader")
+          loader: "style!css!less"
       },
       {test: /\.(woff|woff2)(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/font-woff'},
       {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: 'url?limit=10000&mimetype=application/octet-stream'},
@@ -74,8 +74,27 @@ var config = module.exports = {
     //   'ENV': JSON.stringify(metadata.ENV),
     //   'HMR': HMR
     // })
-    new ExtractTextPlugin("../stylesheets/app.css")
+    // new ExtractTextPlugin("../stylesheets/app.css")
   ],
+
+  // Static analysis linter for TypeScript advanced options configuration
+  // Description: An extensible linter for the TypeScript language.
+  //
+  // See: https://github.com/wbuchwalter/tslint-loader
+  tslint: {
+    emitErrors: false,
+    failOnHint: false,
+    resourcePath: 'src'
+  },
+
+  node: {
+    global: 'window',
+    process: true,
+    crypto: 'empty',
+    module: false,
+    clearImmediate: false,
+    setImmediate: false
+  }
 
 };
 
