@@ -218,3 +218,6 @@ DEPENDENCIES
   wash_out
   webmock
   wisper
+
+BUNDLED WITH
+   1.11.2

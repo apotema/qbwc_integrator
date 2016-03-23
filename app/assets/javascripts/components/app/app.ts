@@ -9,6 +9,7 @@ import {ROUTER_DIRECTIVES}     from 'angular2/router';
 import {Router}                from 'angular2/router';
 import {Location}              from 'angular2/router';
 import {CompanyService}        from '../../services/company_service';
+import {RequestListSingleton}  from '../../singletons/request_list';
 
 @Component({
   selector: 'app',
@@ -29,6 +30,7 @@ import {CompanyService}        from '../../services/company_service';
       .selected { background-color: #EEE; color: #369; }
     `],
   template: require('./app.html'),
+  viewProviders: [RequestListSingleton],
   encapsulation: ViewEncapsulation.None,
   directives: [ROUTER_DIRECTIVES],
   providers: [CompanyService]

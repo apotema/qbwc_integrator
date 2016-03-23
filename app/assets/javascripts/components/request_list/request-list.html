@@ -9,9 +9,9 @@
       </tr>
     </thead>  
     <tbody>
-      <tr *ngFor="#request of requests" (click)="selectRequest(request)">
-        <th scope="row">{{request.id}}</th>
-        <td>{{request.state}}</td>
+      <tr *ngFor="#request of requests.list" (click)="selectRequest(request)">
+        <th scope="row">{{request.type}}</th>
+        <td>{{request.action}}</td>
       </tr>
     </tbody>
   </table>

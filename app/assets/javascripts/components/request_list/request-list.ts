@@ -4,6 +4,7 @@ import {Request}               from '../../models/request';
 import {Http, HTTP_PROVIDERS}  from 'angular2/http';
 import {RouteParams}           from 'angular2/router';
 import {RequestService}        from '../../services/request_service';
+import {RequestListSingleton}  from '../../singletons/request_list';
 
 @Component({
   selector: 'request-list',
@@ -14,7 +15,7 @@ import {RequestService}        from '../../services/request_service';
 })
 export class RequestListCmp {
 
-  public requests: Request[];
+  // public requests: RequestListSingleton;
 
   private request;
 
@@ -23,10 +24,20 @@ export class RequestListCmp {
   constructor(
     private _http: Http,
     private _route_params: RouteParams,
-    private _request_service: RequestService) {
+    private _request_service: RequestService,
+    private requests: RequestListSingleton) {
     this.companyId = this._route_params.get('company_id');
     this._request_service.list_requests(this.companyId)
-      .subscribe(items => this.requests = items.json());
+    .subscribe(items => {
+        console.log(items);
+        console.log(items.json());
+        var json_items = items.json();
+        for (var item in json_items) {
+          console.log(json_items[item]);
+          this.requests.push(new Request(json_items[item].id, json_items[item].state));
+        }
+      }
+     );
   }
 
   selectRequest(request) {
